@@ -5,5 +5,4 @@ const CommonBtn = () => {
     <button className='py-[14px]'></button>
   )
 }
-
 export default CommonBtn
