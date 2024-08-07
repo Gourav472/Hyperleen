@@ -12,6 +12,9 @@ const Hero = () => {
                         <p className='font-poppins font-normal text-base leading-6 text-center text-darkBlue'>AI Solutions</p>
                         <Icons iconName="SolutionIconRight" />
                     </div>
+                    <div className=' flex items-center gap-6'>
+
+                    </div>
                 </div>
 
             </div>
