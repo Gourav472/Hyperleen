@@ -1,6 +1,6 @@
-const Icon = ({ iconName, className }) => {
+const Icons = ({ iconName, className }) => {
     const ICON_LIST = {
-       
+      
     }
     return (
         <span className={`${className}`}>
@@ -9,4 +9,4 @@ const Icon = ({ iconName, className }) => {
     );
 };
 
-export default Icon
+export default Icons
