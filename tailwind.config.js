@@ -36,7 +36,11 @@ module.exports = {
       //   'hero_bg': 'url(./assets/images/webp/hero_bg.webp)',
       //   'touch_bg':'url(./assets/images/webp/touch_bg.webp)',
       // },
+      boxShadow: {
+        '2xl' : "4px 4px 20px 0px #084CAF4D"
+      },
     },
+    
   },
   plugins: [],
 }
