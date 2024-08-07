@@ -25,6 +25,7 @@ module.exports = {
         darkBlue: "#084CAF",
         gray: "#4E4E4E",
         lightGray: "#F3F6FB",
+        offGray:"#0000000A"
       },
       backgroundSize: {
         "full": "100% 100%",

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CommonHeading from '../common/CommonHeading';
 import { ACCORDION_DATA } from "../common/Helper";
-import Icon from '../common/Icon';
+import Icon from '../common/Icons';
 
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -9,8 +9,8 @@ const Faq = () => {
         setOpenIndex(openIndex === index ? null : index);
     };
     return (
-        <div className='pt-10'>
-            <div className="container mt-10">
+        <div className='pt-10 pb-20'>
+            <div className="container mt-10 mb-2.5">
                 <CommonHeading blueText="FAQs" className="text-center" />
                 <p className='mt-4 text-center font-poppins text-base font-normal text-gray'>You have got Question.  We have got Answer</p>
                 <div className="pt-10">

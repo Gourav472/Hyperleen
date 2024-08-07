@@ -1,10 +1,16 @@
 import './App.css';
-import Hero from './components/Hero';
+import Faq from './components/Faq';
+import Footer from './components/Footer';
+import Hyperleen from './components/Hyperleen';
+import Platforms from './components/Platforms';
 
 function App() {
   return (
     <div>
-      <Hero/>
+      <Platforms />
+      <Faq />
+      <Hyperleen />
+      <Footer />
     </div>
   );
 }
