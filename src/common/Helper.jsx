@@ -65,3 +65,20 @@ export const ACCORDION_DATA = [
         content: 'To get started with our data labeling service, simply contact us through our website or give us a call. Our team will discuss your requirements, provide a quote, and guide you through the onboarding process.',
     },
 ];
+export const BUTTONS_DATA = [
+    {
+        text: 'Accurate',
+    },
+    {
+        text: 'Scalable',
+    },
+    {
+        text: 'Secure Data',
+    },
+    {
+        text: 'Labeling Solutions',
+    },
+    {
+        text: 'Quality Work',
+    },
+]

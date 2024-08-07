@@ -25,6 +25,7 @@ module.exports = {
         darkBlue: "#084CAF",
         gray: "#4E4E4E",
         lightGray: "#F3F6FB",
+        lightPink: "#0A02EC14",
       },
       backgroundSize: {
         "full": "100% 100%",
@@ -34,10 +35,12 @@ module.exports = {
         "custom-80": "80px",
       },
       boxShadow: {
-        '2xl' : "4px 4px 20px 0px #084CAF4D"
+        '2xl': "4px 4px 20px 0px #084CAF4D",
+        '3xl': "0px 4px 16px 0px #084CAF1F",
+
       },
     },
-    
+
   },
   plugins: [],
 }
