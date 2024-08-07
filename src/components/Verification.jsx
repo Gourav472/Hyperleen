@@ -3,8 +3,14 @@ import React from 'react'
 
 const Verification = () => {
   return (
-    <div>
-     
+    <div className='container'>
+     <div>
+        <div>
+            <div>
+                
+            </div>
+        </div>
+     </div>
     </div>
   )
 }

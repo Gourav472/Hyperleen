@@ -23,6 +23,7 @@ module.exports = {
       },
       colors: {
         darkBlue: "#084CAF",
+        gray: "#4E4E4E",
       },
       backgroundSize: {
         "full": "100% 100%",
@@ -31,10 +32,11 @@ module.exports = {
         "custom-32": "32px",
         "custom-80": "80px",
       },
-      // backgroundImage: {
-      //   'hero_bg': 'url(./assets/images/webp/hero_bg.webp)',
-      //   'touch_bg':'url(./assets/images/webp/touch_bg.webp)',
-      // },
+      backgroundImage: {
+        'hero_bg': 'url(./assets/images/webp/hero_bg.webp)',
+        'touch_bg':'url(./assets/images/webp/touch_bg.webp)',
+        ''
+      },
       boxShadow: {
         '2xl' : "4px 4px 20px 0px #084CAF4D"
       },
