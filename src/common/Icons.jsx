@@ -29,4 +29,5 @@ const Icons = ({ iconName, className }) => {
         </span>
     );
 };
+
 export default Icons
