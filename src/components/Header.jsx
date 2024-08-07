@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { NAV_ITEMS_DATA } from '../common/Helper';
 import hyperLogo from '../assets/images/svg/hyper_logo.svg'
-import Icon from '../common/Icons';
 import CommonBtn from '../common/CommonBtn';
 const Header = () => {
   const [show, setShow] = useState(true);
