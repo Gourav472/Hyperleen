@@ -23,6 +23,8 @@ module.exports = {
       },
       colors: {
         darkBlue: "#084CAF",
+        gray: "#4E4E4E",
+        lightGray: "#F3F6FB",
       },
       backgroundSize: {
         "full": "100% 100%",

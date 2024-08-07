@@ -1,10 +1,14 @@
 import './App.css';
-import Header from './components/Header';
+import Faq from './components/Faq';
+import Platforms from './components/Platforms';
+// import Header from './components/Header';
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      <Platforms />
+      <Faq />
     </div>
   );
 }
