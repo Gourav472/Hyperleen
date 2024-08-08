@@ -1,10 +1,12 @@
 import './App.css';
+import AddLabel from './components/AddLabel';
 import Hero from './components/Hero';
 
 function App() {
   return (
     <div>
-      <Hero/>
+      <Hero />
+      <AddLabel />
     </div>
   );
 }

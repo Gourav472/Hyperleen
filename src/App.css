@@ -49,7 +49,7 @@
 }
 
 .cross span:nth-child(1) {
-  transform: rotate(45deg) translateY(13px) translateX(4px);
+  transform: rotate(45deg) translateY(14px) translateX(4px);
 }
 
 .cross span:nth-child(2) {
@@ -58,5 +58,5 @@
 }
 
 .cross span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-13px) translateX(4px);
+  transform: rotate(-45deg) translateY(-11px) translateX(0px);
 }
