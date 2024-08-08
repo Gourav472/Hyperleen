@@ -15,7 +15,7 @@ const Footer = () => {
                         </a>
                         <p className='font-poppins font-normal text-base text-white opacity-70 mt-5'>Lorem ipsum dolor sit amet consectetur. Massa ac commodo duis amet et ut. Tincidunt faucibus integer risus id at.</p>
                     </div>
-                    <div className="flex w-full justify-between lg:w-auto gap-10 xl:gap-[72px] text-nowrap">
+                    <div className="flex w-full justify-between lg:w-auto gap-10 xl:gap-[72px] flex-wrap md:flex-nowrap text-nowrap">
                         {FOOTER_DATA.map((index) => (
                             <div key={index} className="flex flex-col">
                                 <h4 className='font-poppins font-normal text-lg text-white'>{index.heading}</h4>
