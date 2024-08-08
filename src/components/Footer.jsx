@@ -1,5 +1,5 @@
 import React from 'react';
-import HyperleenLogo from "../assets/images/webp/Hyperleen_logo.png";
+import HyperleenLogo from "../assets/images/webp/Hyperleen_logo.webp";
 import { FOOTER_DATA, SOCIAL_ICONS } from '../common/Helper';
 import Icons from '../common/Icons';
 

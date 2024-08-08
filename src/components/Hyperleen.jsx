@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CommonHeading from '../common/CommonHeading';
 import CommonBtn from '../common/CommonBtn';
-import hyperleenBottom from "../assets/images/webp/hyperleen_bottom.png";
+import hyperleenBottom from "../assets/images/webp/hyperleen_bottom.webp";
 
 const Hyperleen = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
