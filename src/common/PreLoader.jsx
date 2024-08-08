@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import hyperLogo from "../assets/images/webp/preloader_logo.png";
+import hyperLogo from "../assets/images/webp/preloader_logo.webp";
 import preloaderGif from "../assets/images/webp/preloader_gif.gif";
 
 const PreLoader = () => {
