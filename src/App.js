@@ -1,4 +1,6 @@
 import './App.css';
+import PreLoader from './common/PreLoader';
+import ScrollToTop from './common/ScrollToTop';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Hyperleen from './components/Hyperleen';
@@ -11,6 +13,8 @@ function App() {
       <Faq />
       <Hyperleen />
       <Footer />
+      <ScrollToTop />
+      <PreLoader />
     </div>
   );
 }

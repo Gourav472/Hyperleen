@@ -60,3 +60,12 @@
 .cross span:nth-child(3) {
   transform: rotate(-45deg) translateY(-13px) translateX(4px);
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #084CAF;
+  border-radius: 20px;
+}
