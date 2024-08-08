@@ -6,12 +6,12 @@ const PreLoader = () => {
     const [visible, setVisible] = useState(true);
     useEffect(() => {
         document.body.classList.add('overflow-hidden');
-        const timer = setTimeout(() => {
+        const TIMER = setTimeout(() => {
             setVisible(false);
             document.body.classList.remove('overflow-hidden');
         }, 1500);
         return () => {
-            clearTimeout(timer);
+            clearTimeout(TIMER);
             document.body.classList.remove('overflow-hidden');
         };
     }, []);
