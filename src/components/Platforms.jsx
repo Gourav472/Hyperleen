@@ -5,7 +5,7 @@ import manthano from "../assets/images/webp/manthano.png";
 
 const Platforms = () => {
     return (
-        <div className='pt-1 pb-10'>
+        <div className='pt-1 pb-2 xl:pb-10'>
             <div className="container mb-10">
                 <CommonHeading
                     text="Tools and "

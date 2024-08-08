@@ -25,7 +25,7 @@ module.exports = {
         darkBlue: "#084CAF",
         gray: "#4E4E4E",
         lightGray: "#F3F6FB",
-        offGray:"#0000000A"
+        offGray: "#0000000A"
       },
       backgroundSize: {
         "full": "100% 100%",
@@ -35,10 +35,14 @@ module.exports = {
         "custom-80": "80px",
       },
       boxShadow: {
-        '2xl' : "4px 4px 20px 0px #084CAF4D"
+        '2xl': "4px 4px 20px 0px #084CAF4D",
+        '3xl_white': "0px 0px 15px white",
       },
+      backgroundImage: {
+        'gradientBorder':"linear-gradient(90deg, rgba(199, 199, 199, 0) 0%, #CDCDCD 34.5%, #CDCDCD 65%, rgba(196, 196, 196, 0) 100%)",
+      }
     },
-    
+
   },
   plugins: [],
 }

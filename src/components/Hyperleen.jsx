@@ -6,7 +6,7 @@ import hyperleenBottom from "../assets/images/webp/hyperleen_bottom.png";
 const Hyperleen = () => {
     return (
         <div className='pt-20 pb-1 max-w-[1920px] mx-auto'>
-            <div className="container mt-2.5">
+            <div className="container mt-2.5 pb-5">
                 <div className="flex flex-col items-center">
                     <CommonHeading text=" Get in touch with " blueText="Hyperleen" className="text-center" />
                     <p className='max-w-[731px] font-poppins text-base font-normal text-gray opacity-70 text-center mt-4'>
