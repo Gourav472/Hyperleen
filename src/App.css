@@ -27,6 +27,11 @@
   src: url("./assets/fonts/Gilroy-Light.ttf");
   word-wrap: break-word;
 }
+@font-face {
+  font-family: "Gilroy semibold,sans-serif";
+  src: url("./assets/fonts/gilroy-semibold.ttf");
+  word-wrap: break-word;
+}
 
 .font_gilroy_heavy {
   font-family: "Gilroy heavy,sans-serif";
@@ -38,6 +43,10 @@
 
 .font_gilroy_light {
   font-family: "Gilroy light,sans-serif";
+}
+
+.font_gilroy_semibold {
+  font-family: "Gilroy semibold,sans-serif";
 }
 
 .font_gilroy_medium {
