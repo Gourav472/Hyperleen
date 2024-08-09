@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import CommonHeading from '../common/CommonHeading';
 import { ACCORDION_DATA } from "../common/Helper";
 import Icon from '../common/Icons';
-
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState(null);
     const HANDLE_TOGGLE = (index) => {
@@ -42,5 +41,4 @@ const Faq = () => {
         </div>
     )
 }
-
 export default Faq

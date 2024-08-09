@@ -2,7 +2,6 @@ import React from 'react';
 import CommonHeading from '../common/CommonHeading';
 import alegion from "../assets/images/webp/alegion.webp";
 import manthano from "../assets/images/webp/manthano.webp";
-
 const Platforms = () => {
     return (
         <div className='pt-1 pb-2 xl:pb-10'>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import upArrow from "../assets/images/svg/scroll_to_top.svg";
-
 const ScrollToTop = () => {
     const SCROLL_TO_TOP = () => {
         window.scrollTo({
@@ -30,5 +29,4 @@ const ScrollToTop = () => {
         </button>
     )
 }
-
 export default ScrollToTop

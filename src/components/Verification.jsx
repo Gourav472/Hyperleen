@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 const Verification = () => {
   return (
     <div className='container'>
@@ -13,5 +11,4 @@ const Verification = () => {
     </div>
   )
 }
-
 export default Verification
