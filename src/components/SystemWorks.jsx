@@ -33,7 +33,7 @@ const SystemWorks = () => {
                 <div data-aos="fade-left" className='max-w-[515px] w-full'>
                     <div className="relative flex gap-4 pb-7 group">
                         <div className='before:absolute before:left-[26px] before:top-6 before:border before:h-full before:border-dashed before:border-darkBlue'>
-                            <div className=" duration-300 ease-linear group-hover:bg-darkBlue z-10 relative h-[54px] w-[54px] flex justify-center items-center bg-offBlue rounded-full">
+                            <div className="duration-300 ease-linear group-hover:bg-darkBlue z-10 relative h-[54px] w-[54px] flex justify-center items-center bg-offBlue rounded-full">
                                 <Icons iconName="ProjectRequestIcon"/>
                             </div>
                         </div>
