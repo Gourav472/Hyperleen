@@ -1,6 +1,10 @@
 import Hero from './components/Hero';
 import AddLabel from './components/AddLabel';
 import Segmentation from './components/Segmentation';
+import Verification from './components/Verification'
+import OurTeam from './components/OurTeam'
+import SystemWorks from './components/SystemWorks'
+import HightQuality from './components/HighQuality'
 import Platforms from './components/Platforms';
 import Faq from './components/Faq'
 import Hyperleen from './components/Hyperleen';
@@ -14,6 +18,10 @@ function App() {
       <Hero />
       <AddLabel />
       <Segmentation />
+      <Verification />
+      <OurTeam />
+      <SystemWorks />
+      <HightQuality />
       <Platforms />
       <Faq />
       <Hyperleen />

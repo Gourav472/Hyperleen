@@ -34,7 +34,12 @@ module.exports = {
         lightGray: "#F3F6FB",
         lightPink: "#0A02EC14",
         offGray: "#0101010D",
-        mediumGray: "#0000000A"
+        mediumGray: "#0000000A",
+        lightWhite: "#FFFFFF29",
+        lighterGray: "#00000033",
+        offBlue: "#E6EDF7",
+        regularWhite : "#FFFFFF0A",
+        lightBlue : "#084CAF0A",
       },
       backgroundSize: {
         "full": "100% 100%",
@@ -55,9 +60,17 @@ module.exports = {
         '7xl': "0.88px -8.24px 35.83px 0px #6F69F21F",
         '8xl': "0px 0px 42.77px -10.24px #6F69F280",
         '3xl_white': "0px 0px 15px white",
+        
+      },
+      boxShadow: {
+        '2xl' : "4px 4px 20px 0px #084CAF4D",
+        '4xl' : "4.11px -4.29px 112.6px -10px #084CAF14",
+        '5xl' : "0px 4px 4px 0px #00000040",
       },
       backgroundImage: {
         'gradientBorder':"linear-gradient(90deg, rgba(199, 199, 199, 0) 0%, #CDCDCD 34.5%, #CDCDCD 65%, rgba(196, 196, 196, 0) 100%)",
+        'touch_bg':'url(./assets/images/webp/touch_bg.webp)',
+        'our_team' : 'url(./assets/images/webp/our_team_bg.webp)',
       }
     },
 
