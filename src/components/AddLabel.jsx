@@ -34,7 +34,7 @@ const AddLabel = () => {
         <div id='label' className='container relative z-20'>
             <div className='pt-2 sm:pt-4 md:pt-6 lg:pt-12 pb-14 sm:pb-16 md:pb-20 lg:pb-32 xl:pb-[160px] xl:pt-[79px]'>
                 <div className='flex flex-wrap flex-row'>
-                    <div className='w-full flex justify-center lg:w-5/12'>
+                    <div data-aos="fade-right" className='w-full flex justify-center lg:w-5/12'>
                         <div className='flex flex-col'>
                             <CommonHeading className="max-lg:text-center lg:max-w-[478px]" text="Add" blueText="Label" blackText="of an Image" />
                             <p className='gray font-poppins font-normal text-base leading-6 pt-4'>
@@ -64,7 +64,7 @@ const AddLabel = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full lg:w-7/12 flex max-lg:mt-12 justify-center lg:justify-end lg:items-end lg:ps-6 xl:ps-0'>
+                    <div data-aos="fade-left" className='w-full lg:w-7/12 flex max-lg:mt-12 justify-center lg:justify-end lg:items-end lg:ps-6 xl:ps-0'>
                         <div className='max-w-[600px] w-full min-h-[470px] sm:min-h-[495px] relative'>
                             <img className='pointer-events-none shadow-6xl rounded-2xl max-w-[399px] w-full mt-8' src={projectOverview} alt="overview" />
                             <img className='absolute right-0 top-0 pointer-events-none max-w-[191px] w-full rounded-2xl shadow-7xl h-[241px]' src={loremFirst} alt="lorem" />

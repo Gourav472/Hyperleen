@@ -18,10 +18,10 @@ const Hyperleen = () => {
             <div className="container mt-2.5 pb-5">
                 <div className="flex flex-col items-center">
                     <CommonHeading text=" Get in touch with " blueText="Hyperleen" className="text-center" />
-                    <p className='max-w-[731px] font-poppins text-base font-normal text-gray opacity-70 text-center mt-4'>
+                    <p data-aos="fade-right" className='max-w-[731px] font-poppins text-base font-normal text-gray opacity-70 text-center mt-4'>
                         Take your experience a step further! Subscribe to our monthly newsletter for exclusive access to discounts, promotions, Hyperleen events and more. We’d hate to be annoying, please unsubscribe anytime! –
                     </p>
-                    <form method="get" onSubmit={HANDLE_SUBMIT} className='flex items-center gap-[14px] mt-6'>
+                    <form data-aos="fade-left" method="get" onSubmit={HANDLE_SUBMIT} className='flex items-center gap-[14px] mt-6'>
                         <input type="email" placeholder='Your e-mail' value={email} onChange={(e) => setEmail(e.target.value)} className='bg-mediumGray p-4 text-gray outline-none font-poppins text-base font-normal max-w-[323px] w-full rounded-2xl placeholder:text-gray' required />
                         <CommonBtn text="Submit Now" className="text-nowrap px-6 max-w-[156px] w-full " />
                     </form>

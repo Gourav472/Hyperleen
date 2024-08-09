@@ -13,8 +13,8 @@ const Platforms = () => {
                     blackText="Annotations"
                 />
                 <div className="pt-16">
-                    <img src={alegion} alt="alegion" className='w-full' />
-                    <img src={manthano} alt="manthano" className='mt-6 w-full' />
+                    <img data-aos="fade-right" src={alegion} alt="alegion" className='w-full' />
+                    <img data-aos="fade-left" src={manthano} alt="manthano" className='mt-6 w-full' />
                 </div>
             </div>
         </div>

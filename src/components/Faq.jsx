@@ -11,10 +11,10 @@ const Faq = () => {
         <div className='lg:pt-10 pt-5 pb-2 lg:pb-10 xl:pb-20'>
             <div className="container mt-10 mb-2.5">    
                 <CommonHeading blueText="FAQs" className="text-center" />
-                <p className='mt-4 text-center font-poppins text-base font-normal text-gray'>You have got Question.  We have got Answer</p>
+                <p data-aos="zoom-in" className='mt-4 text-center font-poppins text-base font-normal text-gray'>You have got Question.  We have got Answer</p>
                 <div className="pt-7 pb-3">
                     {ACCORDION_DATA.map((item, index) => (
-                        <div key={index} className={`${openIndex === index ? 'border-transparent' : 'border-gray'} w-full border-[0.5px] overflow-hidden rounded-2xl flex mx-auto max-w-[973px] mt-3 sm:mt-5 justify-center relative duration-300 ease-linear`} data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div key={index} className={`${openIndex === index ? 'border-transparent' : 'border-gray'} w-full border-[0.5px] overflow-hidden rounded-2xl flex mx-auto max-w-[973px] mt-3 sm:mt-5 justify-center relative duration-300 ease-linear`} data-aos="flip-up">
                             <div className="accordion w-full">
                                 <div
                                     className={`${openIndex === index ? 'bg-darkBlue' : 'bg-white'} duration-300 ease-linear accordion-header relative z-[1] sm:px-6 px-3 flex items-center justify-between shadow-4xl gap-1.5 cursor-pointer py-4 sm:py-[23px]`}
