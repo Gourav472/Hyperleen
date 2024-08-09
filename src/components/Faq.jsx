@@ -12,7 +12,7 @@ const Faq = () => {
             <div className="container lg:mt-10 mb-2.5">
                 <CommonHeading blueText="FAQs" className="text-center" />
                 <p data-aos="zoom-in" className='sm:mt-4 mt-1 text-center font-poppins text-base font-normal text-gray'>You have got Question.  We have got Answer</p>
-                <div className="sm:pt-7 pt-4 pb-3">
+                <div className="lg:pt-[60px] pt-5 sm:pt-8 md:pt-11 pb-3">
                     {ACCORDION_DATA.map((item, index) => (
                         <div data-aos="flip-up" key={index}>
                             <div className={`${openIndex === index ? 'border-transparent' : 'border-gray'} w-full border-[0.5px] overflow-hidden rounded-2xl flex mx-auto max-w-[973px] mt-3 sm:mt-5 justify-center relative duration-300 ease-linear`}>
