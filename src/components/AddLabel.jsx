@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
 import CommonBtn from '../common/CommonBtn';
 import CommonBtnWhite from '../common/CommonBtnWhite';
@@ -7,12 +7,21 @@ import loremFirst from '../assets/images/webp/lorem_first.webp';
 import loremSecond from '../assets/images/webp/lorem_second.webp';
 import inputFileBg from '../assets/images/webp/input_file_bg.webp';
 import Icons from '../common/Icons';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const AddLabel = () => {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+            duration: 1400,
+            easing: "ease-in-out",
+            disable: 'mobile',
+        });
+    }, []);
+
     const [preview, setPreview] = useState(inputFileBg);
     const [fileName, setFileName] = useState('Car.');
     const fileInputRef = useRef(null);
-
     const HANDLE_FILE_CHANGE = (e) => {
         const selectedFile = e.target.files[0];
         if (selectedFile) {
@@ -29,7 +38,6 @@ const AddLabel = () => {
         setPreview(inputFileBg);
         fileInputRef.current.value = null;
     };
-
     return (
         <div id='label' className='container relative z-20'>
             <div className='pt-2 sm:pt-4 md:pt-6 lg:pt-12 pb-14 sm:pb-16 md:pb-20 lg:pb-32 xl:pb-[160px] xl:pt-[79px]'>
@@ -58,8 +66,16 @@ const AddLabel = () => {
                                     </p>
                                 </div>
                                 <div className='flex items-center justify-center gap-4 pt-5 lg:pt-9'>
-                                    <CommonBtn text="Ok" className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full" />
-                                    <CommonBtnWhite text="Cancel" className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full" onClick={HANDLE_CANCEL}/>
+                                    <CommonBtn
+                                        text="Ok"
+                                        className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full"
+                                        onClick={HANDLE_CANCEL}
+                                    />
+                                    <CommonBtnWhite
+                                        text="Cancel"
+                                        className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full"
+                                        onClick={HANDLE_CANCEL}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -76,4 +92,5 @@ const AddLabel = () => {
         </div>
     );
 };
+
 export default AddLabel;
