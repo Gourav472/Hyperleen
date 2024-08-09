@@ -5,13 +5,13 @@ import CommonBtnWhite from '../common/CommonBtnWhite'
 const Verification = () => {
     return (
         <div className='container pt-[60px] lg:pb-[293px] md:pb-28 sm:pb-20 pb-16'>
-            <div className='flex gap-[78px] lg:flex-row flex-col items-center'>
-                <div className='max-w-[522px] w-full flex lg:justify-end justify-center lg:mb-0 sm:mb-20 mb-9'>
+            <div className='flex gap-[78px] lg:flex-row lg:items-end flex-col items-center'>
+                <div data-aos="fade-right" className='max-w-[522px] w-full flex lg:justify-end justify-center lg:mb-0 sm:mb-20 mb-9'>
                     <div className='sm:max-w-[502px] sm:ms-0 ms-5 max-w-[400px] w-full relative'>
-                        <p className='font_gilroy_semibold font-semibold md:text-3xl md:leading-9 lg:text-custom-32 text-2xl leading-7 lg:leading-[43px] text-center sm:ms-[1.5px] sm:max-w-[498.5px] max-w-[492px] w-full text-white bg-darkBlue rounded-tl-[8px] rounded-tr-[8px] p-4'>
+                        <p className='font_gilroy_semibold font-semibold md:text-3xl md:leading-9 lg:text-custom-32 text-2xl leading-7 lg:leading-[43px] text-center lg:text-start sm:ms-[1.5px] sm:max-w-[498.5px] max-w-[492px] w-full text-white bg-darkBlue rounded-tl-[8px] rounded-tr-[8px] p-4'>
                             Is Previous Selected Object is Correct?
                         </p>
-                        <img className='sm:max-w-[502px] max-w-[400px] w-full sm:h-[365px] h-[280px]' src={previousSelected} alt="#" />
+                        <img className='sm:max-w-[502px] pointer-events-none max-w-[400px] w-full sm:h-[365px] h-[280px]' src={previousSelected} alt="#" />
                         <div className='sm:max-w-[339px] max-w-[250px] w-full sm:h-[212px] h-[180px] bg-white shadow-4xl sm:py-4 py-3 sm:px-[14px] px-[10px] rounded-2xl absolute left-[-4%] sm:bottom-[-28%] bottom-[-22%]'>
                             <p className='font_gilroy_semibold font-semibold md:text-2xl text-xl leading-8 text-center text-black'>
                                 Confirm your action
@@ -28,7 +28,7 @@ const Verification = () => {
                         </div>
                     </div>
                 </div>
-                <div className='max-w-[540px] w-full flex flex-col lg:justify-start justify-center lg:items-start items-center'>
+                <div data-aos="fade-left" className='max-w-[540px] w-full lg:mb-[68px] flex flex-col justify-center lg:justify-end max-lg:items-center'>
                     <p className='text-black font_gilroy_semibold lg:text-start text-center font-semibold text-custom-32 leading-[43px]'>
                         Verification
                     </p>

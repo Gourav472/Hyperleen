@@ -28,6 +28,12 @@
   word-wrap: break-word;
 }
 
+@font-face {
+  font-family: "Gilroy semibold,sans-serif";
+  src: url("./assets/fonts/gilroy-semibold.ttf");
+  word-wrap: break-word;
+}
+
 .font_gilroy_heavy {
   font-family: "Gilroy heavy,sans-serif";
 }
@@ -41,6 +47,10 @@
 }
 
 .font_gilroy_semibold {
+  font-family: "Gilroy semibold,sans-serif";
+}
+
+.font_gilroy_medium {
   font-family: "Gilroy medium,sans-serif";
 }
 
@@ -49,7 +59,7 @@
 }
 
 .cross span:nth-child(1) {
-  transform: rotate(45deg) translateY(13px) translateX(4px);
+  transform: rotate(45deg) translateY(14px) translateX(4px);
 }
 
 .cross span:nth-child(2) {
@@ -58,5 +68,14 @@
 }
 
 .cross span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-13px) translateX(4px);
+  transform: rotate(-45deg) translateY(-10.5px) translateX(0px);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #084CAF;
+  border-radius: 20px;
 }

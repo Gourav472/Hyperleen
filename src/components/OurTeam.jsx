@@ -5,20 +5,20 @@ import teamLineVector from '../assets/images/webp/team_line_vector.webp'
 import Icons from '../common/Icons'
 const OurTeam = () => {
     return (
-        <div className='bg-our_team bg-no-repeat lg:bg-full bg-cover lg:py-[183px] py-32 relative overflow-hidden'>
+        <div id='team' className='max-lg:bg-darkBlue lg:bg-our_team lg:bg-no-repeat lg:bg-full lg:py-[183px] py-14 sm:py-16 md:py-20 relative overflow-hidden'>
             <div className='container z-10'>
                 <div className='flex flex-col justify-center items-center'>
                     <h3 className='font-medium font_gilroy_semibold md:text-5xl text-4xl leading-10 md:leading-[57px] text-white text-center'>
                         Our Team
                     </h3>
-                    <p className='max-w-[411px] w-full font-normal font-poppins text-base text-white opacity-70 text-center leading-6 pt-4 md:pb-14 sm:pb-9 pb-7'>
+                    <p data-aos="zoom-in" className='max-w-[411px] w-full font-normal font-poppins text-base text-white opacity-70 text-center leading-6 pt-4 md:pb-14 sm:pb-9 pb-7'>
                         Meet our dedicated team of experts ensuring precision and quality in every data labeling task.
                     </p>
                 </div>
                 <div className='flex gap-5 lg:flex-row flex-col lg:items-start items-center'>
-                    <div className='max-w-[560px] w-full'>
+                    <div data-aos="fade-up-right" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full xl:h-[393px] sm:h-[380px] pointer-events-none' src={markButler} alt="#" />
+                            <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
@@ -33,12 +33,12 @@ const OurTeam = () => {
                                         Lead Data Annotator
                                     </p>
                                 </div>
-                                <div className='xl:pb-6 sm:pb-4 pb-3'>
-                                    <a href="tel:972.215.8214" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
+                                <div className='xl:mb-6 sm:mb-4 mb-3'>
+                                    <a href="tel:972.215.8214" className='font-normal max-w-[126px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
                                         <Icons iconName="PhoneIcon" />
                                         972.215.8214
                                     </a>
-                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 pt-2'>
+                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal max-w-[254px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 mt-2'>
                                         <Icons iconName="MailIcon" />
                                         darrin.araki@cbpacific.com
                                     </a>
@@ -49,9 +49,9 @@ const OurTeam = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='max-w-[560px] w-full'>
+                    <div data-aos="fade-up-left" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full xl:h-[393px] sm:h-[380px] pointer-events-none' src={corinneCrabtree} alt="#" />
+                            <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
@@ -66,12 +66,12 @@ const OurTeam = () => {
                                         Lead Data Annotator
                                     </p>
                                 </div>
-                                <div className='xl:pb-6 sm:pb-4 pb-3'>
-                                    <a href="tel:972.215.8214" className='font-normal font-poppins text-base leading-6 text-darkBlue max-w-[126px] flex items-center gap-3'>
+                                <div className='xl:mb-6 sm:mb-4 mb-3'>
+                                    <a href="tel:972.215.8214" className='font-normal max-w-[126px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
                                         <Icons iconName="PhoneIcon" />
                                         972.215.8214
                                     </a>
-                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 pt-2'>
+                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal max-w-[254px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 mt-2'>
                                         <Icons iconName="MailIcon" />
                                         darrin.araki@cbpacific.com
                                     </a>

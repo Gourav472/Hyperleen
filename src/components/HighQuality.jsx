@@ -17,11 +17,11 @@ const HighQuality = () => {
     <div className='container lg:pb-40 md:pb-28 sm:pb-20 pb-16'>
       <div className='flex flex-col items-center justify-center'>
         <CommonHeading text="How We " blueText="Ensure High Quality" className="text-center" />
-        <p className='max-w-[674px] font-poppins font-normal text-center text-base text-gray leading-6 pt-4'>
+        <p data-aos="zoom-in" className='max-w-[674px] font-poppins font-normal text-center text-base text-gray leading-6 pt-4'>
           Our rigorous quality assurance process ensures that our data labeling services provide accurate and reliable results. Here’s a breakdown of our process:
         </p>
       </div>
-      <div className='flex lg:flex-row flex-col max-lg:items-center gap-5 z-10 lg:pt-[100px] md:pt-20 sm:pt-16 pt-11 relative'>
+      <div data-aos="zoom-in-up" className='flex lg:flex-row flex-col max-lg:items-center gap-5 z-10 lg:pt-[100px] md:pt-20 sm:pt-16 pt-11 relative'>
         <div className='bg-regularWhite rounded-2xl duration-300 hover:shadow-4xl border-[0.5px] border-darkBlue lg:max-w-[326px] max-w-[550px] w-full lg:h-[380px] p-5'>
           <p className='font-semibold font_gilroy_semibold sm:text-2xl text-xl sm:leading-[34px] leading-7 text-black'>
             Step 01

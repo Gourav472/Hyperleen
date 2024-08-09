@@ -1,5 +1,3 @@
-
-
 export const NAV_ITEMS_DATA = [
     {
         href: "/",
@@ -7,7 +5,7 @@ export const NAV_ITEMS_DATA = [
         className: "navitems",
     },
     {
-        href: "/",
+        href: "#label",
         text: "Label",
         className: "navitems",
     },
@@ -29,11 +27,6 @@ export const NAV_ITEMS_DATA = [
     {
         href: "#faqs",
         text: "FAQs",
-        className: "navitems",
-    },
-    {
-        href: "#request",
-        text: "Request a Qoute",
         className: "navitems",
     },
 ];
@@ -67,3 +60,50 @@ export const ACCORDION_DATA = [
         content: 'To get started with our data labeling service, simply contact us through our website or give us a call. Our team will discuss your requirements, provide a quote, and guide you through the onboarding process.',
     },
 ];
+export const BUTTONS_DATA = [
+    {
+        text: 'Accurate',
+    },
+    {
+        text: 'Scalable',
+    },
+    {
+        text: 'Secure Data',
+    },
+    {
+        text: 'Labeling Solutions',
+    },
+    {
+        text: 'Quality Work',
+    },
+]
+export const FOOTER_DATA = [
+    {
+        heading: "Quick Links", items: [
+            { text: "Home" },
+            { text: "About Us" },
+            { text: "Services" },
+            { text: "FAQ" },
+            { text: "How it Works" },
+        ]
+    },
+    {
+        heading: "Links", items: [
+            { text: "Team" },
+            { text: "Label" },
+        ]
+    },
+    {
+        heading: "Policy", items: [
+            { text: "Contact Us" },
+            { text: "Privacy Policy" },
+            { text: "Terms and conditions" },
+        ]
+    },
+];
+export const SOCIAL_ICONS = [
+    { icon: "FaceBook", link:"https://www.facebook.com/" },
+    { icon: "Twitter", link:"https://x.com/i/flow/login" },
+    { icon: "Linkedin", link:"https://in.linkedin.com/" },
+    { icon: "Instagram", link:"https://www.instagram.com/accounts/login/?hl=en" },
+]
