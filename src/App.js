@@ -13,7 +13,7 @@ function App() {
     <div className=' overflow-hidden'>
       <Hero />
       <AddLabel />
-      <Segmentation />F
+      <Segmentation />
       <Platforms />
       <Faq />
       <Hyperleen />

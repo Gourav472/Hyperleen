@@ -8,7 +8,7 @@ const Header = () => {
   useEffect(() => {
     const HANDLE_RESIZE = () => {
       if (window.innerWidth < 992) {
-        document.body.style.overflow = show ? "visible" : "hidden";
+        document.body.style.overflow = show ? "" : "hidden";
       } else {
         document.body.style.overflow = "";
       }

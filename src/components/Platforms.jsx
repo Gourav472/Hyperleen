@@ -4,15 +4,15 @@ import alegion from "../assets/images/webp/alegion.webp";
 import manthano from "../assets/images/webp/manthano.webp";
 const Platforms = () => {
     return (
-        <div className='pt-1 pb-2 xl:pb-10'>
-            <div className="container mb-10">
+        <div className='pt-14 lg:pt-20 pb-2 xl:pb-10'>
+            <div className="container mb-10 lg:mt-8">
                 <CommonHeading
                     text="Tools and "
                     blueText="Platforms for Polygon "
                     className="max-w-[652px] text-center mx-auto"
                     blackText="Annotations"
                 />
-                <div className="pt-16">
+                <div className="lg:pt-16 sm:pt-10 pt-5">
                     <img src={alegion} alt="alegion" className='w-full' />
                     <img src={manthano} alt="manthano" className='mt-6 w-full' />
                 </div>
