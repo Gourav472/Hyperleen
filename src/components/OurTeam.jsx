@@ -18,7 +18,7 @@ const OurTeam = () => {
                 <div className='flex gap-5 lg:flex-row flex-col lg:items-start items-center'>
                     <div data-aos="fade-up-right" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
+                            <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
@@ -33,12 +33,12 @@ const OurTeam = () => {
                                         Lead Data Annotator
                                     </p>
                                 </div>
-                                <div className='xl:pb-6 sm:pb-4 pb-3'>
-                                    <a href="tel:972.215.8214" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
+                                <div className='xl:mb-6 sm:mb-4 mb-3'>
+                                    <a href="tel:972.215.8214" className='font-normal max-w-[126px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
                                         <Icons iconName="PhoneIcon" />
                                         972.215.8214
                                     </a>
-                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 pt-2'>
+                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal max-w-[254px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 mt-2'>
                                         <Icons iconName="MailIcon" />
                                         darrin.araki@cbpacific.com
                                     </a>
@@ -51,7 +51,7 @@ const OurTeam = () => {
                     </div>
                     <div data-aos="fade-up-left" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
+                            <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
@@ -66,12 +66,12 @@ const OurTeam = () => {
                                         Lead Data Annotator
                                     </p>
                                 </div>
-                                <div className='xl:pb-6 sm:pb-4 pb-3'>
-                                    <a href="tel:972.215.8214" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
+                                <div className='xl:mb-6 sm:mb-4 mb-3'>
+                                    <a href="tel:972.215.8214" className='font-normal max-w-[126px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
                                         <Icons iconName="PhoneIcon" />
                                         972.215.8214
                                     </a>
-                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 pt-2'>
+                                    <a href="mailto:darrin.araki@cbpacific.com" className='font-normal max-w-[254px] font-poppins text-base leading-6 text-darkBlue flex items-center gap-3 mt-2'>
                                         <Icons iconName="MailIcon" />
                                         darrin.araki@cbpacific.com
                                     </a>
