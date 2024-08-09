@@ -41,5 +41,4 @@ const Verification = () => {
         </div>
     )
 }
-
 export default Verification
