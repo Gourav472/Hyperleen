@@ -4,7 +4,7 @@ import CommonBtn from '../common/CommonBtn'
 import selectedCar from '../assets/images/webp/selected_car.webp'
 const Segmentation = () => {
     return (
-        <div className='container'>
+        <div id='about' className='container'>
             <div className='flex flex-col'>
                 <div className='flex flex-col items-center'>
                     <CommonHeading className="max-w-[506px] text-center" text="Image" blueText="Segmentation and" blackText="Verification" />
@@ -21,7 +21,7 @@ const Segmentation = () => {
                 </div>
                 <div className='w-full lg:w-6/12 flex justify-center lg:justify-end ps-0 mt-10 md:mt-12 lg:mt-0 lg:ps-6 xl:ps-0'>
                     <div className='max-w-[502px] w-full rounded-2xl border-[0.5px] border-darkBlue relative'>
-                        <img className='max-w-[502px] w-full' src={selectedCar} alt="car" />
+                        <img className='max-w-[502px] pointer-events-none w-full' src={selectedCar} alt="car" />
                         <div className='max-w-[502px] rounded-[16px_16px_0px_0px] flex flex-col w-full bg-darkBlue p-4 absolute top-0'>
                             <p className='font-poppins font-normal text-lg leading-[27px] text-white'>Selected All Squares With</p>
                             <p className='pt-[7px] font_gilroy_semibold text-custom-32 leading-[43px] text-white'>Car</p>

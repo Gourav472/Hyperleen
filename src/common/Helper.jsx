@@ -5,7 +5,7 @@ export const NAV_ITEMS_DATA = [
         className: "navitems",
     },
     {
-        href: "/",
+        href: "#label",
         text: "Label",
         className: "navitems",
     },

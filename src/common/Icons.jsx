@@ -5,7 +5,7 @@ const Icons = ({ iconName, isOpen, className }) => {
                 <path d="M39.5 4C39.5 6.20914 41.2909 8 43.5 8C45.7091 8 47.5 6.20914 47.5 4C47.5 1.79086 45.7091 0 43.5 0C41.2909 0 39.5 1.79086 39.5 4ZM0.5 4.75H43.5V3.25H0.5V4.75Z" fill="url(#paint0_linear_315_504)" />
                 <defs>
                     <linearGradient id="paint0_linear_315_504" x1="-3.5" y1="4.5" x2="43.5" y2="4.5" gradientUnits="userSpaceOnUse">
-                        <stop stop-opacity="0.01" />
+                        <stop stopOpacity="0.01" />
                         <stop offset="1" />
                     </linearGradient>
                 </defs>
@@ -17,7 +17,7 @@ const Icons = ({ iconName, isOpen, className }) => {
                 <defs>
                     <linearGradient id="paint0_linear_315_506" x1="0.5" y1="4.5" x2="47.5" y2="4.5" gradientUnits="userSpaceOnUse">
                         <stop />
-                        <stop offset="1" stop-opacity="0.01" />
+                        <stop offset="1" stopOpacity="0.01" />
                     </linearGradient>
                 </defs>
             </svg>

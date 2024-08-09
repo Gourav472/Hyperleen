@@ -5,12 +5,14 @@ import CommonBtnWhite from '../common/CommonBtnWhite';
 import projectOverview from '../assets/images/webp/project_overview.webp';
 import loremFirst from '../assets/images/webp/lorem_first.webp';
 import loremSecond from '../assets/images/webp/lorem_second.webp';
-import inputFileBg from '../assets/images/webp/input_file_bg.webp'; // Import the default background image
+import inputFileBg from '../assets/images/webp/input_file_bg.webp';
 import Icons from '../common/Icons';
+
 const AddLabel = () => {
-    const [preview, setPreview] = useState(inputFileBg); // Initialize with default image
+    const [preview, setPreview] = useState(inputFileBg);
     const [fileName, setFileName] = useState('Car.');
     const fileInputRef = useRef(null);
+
     const HANDLE_FILE_CHANGE = (e) => {
         const selectedFile = e.target.files[0];
         if (selectedFile) {
@@ -22,28 +24,14 @@ const AddLabel = () => {
             reader.readAsDataURL(selectedFile);
         }
     };
-    const HANDLE_CLEAR_IMAGE = (e) => {
-        e.stopPropagation();
-        CLEAR_IMAGE();
-        if (fileInputRef.current) {
-            fileInputRef.current.value = null;
-        }
-    };
-    const CLEAR_IMAGE = () => {
-        setPreview(inputFileBg);
+    const HANDLE_CANCEL = () => {
         setFileName('Car.');
-        if (fileInputRef.current) {
-            fileInputRef.current.value = null;
-        }
+        setPreview(inputFileBg);
+        fileInputRef.current.value = null;
     };
-    const HANDLE_OK_CLICK = () => {
-        CLEAR_IMAGE();
-    };
-    const HANDLE_CANCEL_CLICK = () => {
-        CLEAR_IMAGE();
-    };
+
     return (
-        <div className='container relative z-20'>
+        <div id='label' className='container relative z-20'>
             <div className='pt-2 sm:pt-4 md:pt-6 lg:pt-12 pb-14 sm:pb-16 md:pb-20 lg:pb-32 xl:pb-[160px] xl:pt-[79px]'>
                 <div className='flex flex-wrap flex-row'>
                     <div className='w-full flex justify-center lg:w-5/12'>
@@ -62,11 +50,6 @@ const AddLabel = () => {
                                             backgroundImage: `url(${preview})`,
                                         }}>
                                         <input type="file" className="hidden" onChange={HANDLE_FILE_CHANGE} ref={fileInputRef} />
-                                        {preview !== inputFileBg && (
-                                            <button onClick={HANDLE_CLEAR_IMAGE} className="absolute top-2 right-2 bg-red-500 text-white rounded-full p-1">
-                                                <Icons iconName="CrossIcon" />
-                                            </button>
-                                        )}
                                     </label>
                                 </div>
                                 <div className='max-w-[422px] p-3 min-h-[50px] sm:min-h-[60px] md:min-h-[70px] lg:min-h-[81px] rounded-xl border-[0.5px] border-gray mt-4'>
@@ -75,8 +58,8 @@ const AddLabel = () => {
                                     </p>
                                 </div>
                                 <div className='flex items-center justify-center gap-4 pt-5 lg:pt-9'>
-                                    <CommonBtn text="Ok" className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full" onClick={HANDLE_OK_CLICK} />
-                                    <CommonBtnWhite text="Cancel" className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full" onClick={HANDLE_CANCEL_CLICK} />
+                                    <CommonBtn text="Ok" className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full" />
+                                    <CommonBtnWhite text="Cancel" className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full" onClick={HANDLE_CANCEL}/>
                                 </div>
                             </div>
                         </div>
