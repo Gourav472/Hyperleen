@@ -20,7 +20,7 @@ const Footer = () => {
                                 <h4 className='font-poppins font-normal text-lg text-white'>{index.heading}</h4>
                                 <div className="flex flex-col mt-5 gap-5">
                                     {index.items.map((e) => (
-                                        <a key={e} href="/" className='font-poppins w-fit after:duration-300 after:ease-linear after:[] after:absolute after:w-0 hover:after:w-full  after:-bottom-1 after:h-0.5 after:right-0 hover:after:right-auto hover:after:left-0 hover:opacity-100 relative after:bg-darkBlue font-normal text-base text-white opacity-70'>{e.text}</a>
+                                        <a key={e} href="/" className='font-poppins w-fit duration-300 ease-linear hover:opacity-100 relative font-normal text-base text-white opacity-70'>{e.text}</a>
                                     ))}
                                 </div>
                             </div>
