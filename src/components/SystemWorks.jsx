@@ -6,7 +6,7 @@ import yourProject from '../assets/images/webp/your_project.webp'
 import CommonBtn from '../common/CommonBtn'
 const SystemWorks = () => {
     return (
-        <div className='container lg:py-40 md:py-20 py-16'>
+        <div id='works' className='container lg:py-40 md:py-20 py-16'>
             <div className='flex lg:gap-[97px] gap-16 lg:items-end items-center lg:flex-row flex-col'>
                 <div data-aos="fade-right" className='max-w-[525px] w-full relative flex flex-col lg:items-start items-center lg:justify-start justify-center'>
                     <CommonHeading text="How the " blueText="System " blackText="Works" className="lg:text-start text-center" />

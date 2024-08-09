@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {useRef, useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
 import CommonBtn from '../common/CommonBtn';
 import CommonBtnWhite from '../common/CommonBtnWhite';
@@ -7,18 +7,7 @@ import loremFirst from '../assets/images/webp/lorem_first.webp';
 import loremSecond from '../assets/images/webp/lorem_second.webp';
 import inputFileBg from '../assets/images/webp/input_file_bg.webp';
 import Icons from '../common/Icons';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 const AddLabel = () => {
-    useEffect(() => {
-        AOS.init({
-            once: true,
-            duration: 1400,
-            easing: "ease-in-out",
-            disable: 'mobile',
-        });
-    }, []);
-
     const [preview, setPreview] = useState(inputFileBg);
     const [fileName, setFileName] = useState('Car.');
     const fileInputRef = useRef(null);
@@ -44,7 +33,7 @@ const AddLabel = () => {
                 <div className='flex flex-wrap flex-row'>
                     <div data-aos="fade-right" className='w-full flex justify-center lg:w-5/12'>
                         <div className='flex flex-col'>
-                            <CommonHeading className="max-lg:text-center lg:max-w-[478px]" text="Add" blueText="Label" blackText="of an Image" />
+                            <CommonHeading className="max-lg:text-center lg:max-w-[478px]" text="Add" blueText="Label" blackText="of an Image"/>
                             <p className='gray font-poppins font-normal text-base leading-6 pt-4'>
                                 Efficient and Accurate Labeling on Image.
                             </p>
@@ -62,7 +51,7 @@ const AddLabel = () => {
                                 </div>
                                 <div className='max-w-[422px] p-3 min-h-[50px] sm:min-h-[60px] md:min-h-[70px] lg:min-h-[81px] rounded-xl border-[0.5px] border-gray mt-4'>
                                     <p className='opacity-40 font-poppins font-normal text-base leading-6 text-black flex items-center'>
-                                        {fileName} {preview === inputFileBg && <Icons iconName="PenIcon" className="ms-1" />}
+                                        {fileName} {preview === inputFileBg && <Icons iconName="PenIcon" className="ms-1"/>}
                                     </p>
                                 </div>
                                 <div className='flex items-center justify-center gap-4 pt-5 lg:pt-9'>

@@ -5,7 +5,7 @@ import teamLineVector from '../assets/images/webp/team_line_vector.webp'
 import Icons from '../common/Icons'
 const OurTeam = () => {
     return (
-        <div className='bg-our_team bg-no-repeat lg:bg-full bg-cover lg:py-[183px] py-32 relative overflow-hidden'>
+        <div id='team' className=' max-lg:bg-darkBlue lg:bg-our_team lg:bg-no-repeat lg:bg-full lg:py-[183px] py-14 sm:py-16 md:py-20 relative overflow-hidden'>
             <div className='container z-10'>
                 <div className='flex flex-col justify-center items-center'>
                     <h3 className='font-medium font_gilroy_semibold md:text-5xl text-4xl leading-10 md:leading-[57px] text-white text-center'>
