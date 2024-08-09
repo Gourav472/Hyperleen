@@ -7,7 +7,6 @@ import Hyperleen from './components/Hyperleen';
 import Footer from './components/Footer';
 import ScrollToTop from './common/ScrollToTop'
 import PreLoader from './common/PreLoader'
-
 import './App.css';
 function App() {
   return (
