@@ -16,7 +16,7 @@ const PreLoader = () => {
     }, []);
     if (!visible) return null;
     return (
-        <div className='min-h-screen w-full bg-white z-50 fixed top-0 left-0 grid place-items-center'>
+        <div className='min-h-screen w-full bg-white z-[100] fixed top-0 left-0 grid place-items-center'>
             <img src={hyperLogo} alt="hyperLogo" className='w-[180px] animate-pulse relative z-10' />
             <img src={preloaderGif} alt="preloaderGif" className='w-full max-w-[360px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 opacity-10' />
         </div>

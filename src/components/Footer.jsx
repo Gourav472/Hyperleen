@@ -5,7 +5,7 @@ import Icons from '../common/Icons';
 const Footer = () => {
     const CURRENT_YEAR = new Date().getFullYear();
     return (
-        <div className='pt-1 pb-7 bg-black -mt-2 max-w-[1920px] mx-auto'>
+        <div className='pt-1 pb-5 sm:pb-7 bg-black -mt-2'>
             <div className="container">
                 <div className="flex gap-10 lg:flex-nowrap flex-wrap justify-between">
                     <div className="max-w-[279px] w-full">
@@ -36,8 +36,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <span className='bg-gradientBorder h-px w-full mt-14 flex opacity-10'></span>
-            <p className='mt-5 cursor-pointer font-poppins font-normal text-white text-base opacity-70 text-center px-10 mb-4'>© {CURRENT_YEAR} Hyperleen, All Rights reserved.</p>
+            <span className='bg-gradientBorder h-px w-full sm:mt-10 mt-7 md:mt-14 flex opacity-10'></span>
+            <p className='mt-5 cursor-pointer font-poppins font-normal text-white text-base opacity-70 text-center px-10 sm:mb-4'>© {CURRENT_YEAR} Hyperleen, All Rights reserved.</p>
         </div>
     )
 }

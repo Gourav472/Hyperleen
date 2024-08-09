@@ -14,7 +14,7 @@ const Hyperleen = () => {
         }, 1500);
     }
     return (
-        <div className='pt-20 pb-1 max-w-[1920px] mx-auto relative overflow-hidden'>
+        <div className='lg:pt-20 sm:pt-8 md:pt-12 pt-2 pb-1 relative overflow-hidden'>
             <div className="container mt-2.5 pb-5">
                 <div className="flex flex-col items-center">
                     <CommonHeading text=" Get in touch with " blueText="Hyperleen" className="text-center" />
