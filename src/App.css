@@ -60,7 +60,3 @@
 .cross span:nth-child(3) {
   transform: rotate(-45deg) translateY(-13px) translateX(4px);
 }
-
-.ss {
-  background-image: url(./assets/images/webp/our_team_bg.webp);
-}

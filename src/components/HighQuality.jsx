@@ -30,8 +30,8 @@ const HighQuality = () => {
             Data Labeling
           </p>
           <div className='flex lg:flex-col sm:flex-row flex-col lg:gap-0 gap-2'>
-            <img className='sm:max-w-[258px] w-[90%] sm:w-full' src={labelingPiz} alt="#" />
-            <img className='lg:pt-7 sm:max-w-[258px] w-[90%] sm:w-full' src={labelingCar} alt="#" />
+            <img className='sm:max-w-[258px] w-[90%] sm:w-full pointer-events-none' src={labelingPiz} alt="#" />
+            <img className='lg:pt-7 sm:max-w-[258px] w-[90%] sm:w-full  pointer-events-none' src={labelingCar} alt="#" />
           </div>
         </div>
         <div className='lg:max-w-[449px] max-w-[550px] w-full 2xl:h-[440px] lg:h-[404px]  p-5 duration-300 hover:shadow-4xl bg-regularWhite rounded-2xl border-[0.5px] border-darkBlue lg:mt-[52px]'>
@@ -44,13 +44,13 @@ const HighQuality = () => {
                 <p className='font-semibold font_gilroy_semibold text-xl leading-7 text-black'>
                   90%
                 </p>
-                <img className='h-[20px] w-[20px]' src={blueTick} alt="#" />
+                <img className='h-[20px] w-[20px]  pointer-events-none' src={blueTick} alt="#" />
               </div>
               <div className='flex items-center gap-1 bg-lightBlue border-[0.5px] rounded-xl border-darkBlue p-[6px_12px] max-w-[86px]'>
                 <p className='font-semibold font_gilroy_semibold text-xl leading-7 text-black'>
                   10%
                 </p>
-                <img className='h-[20px] w-[20px]' src={cross} alt="#" />
+                <img className='h-[20px] w-[20px]  pointer-events-none' src={cross} alt="#" />
               </div>
             </div>
           </div>
@@ -58,16 +58,16 @@ const HighQuality = () => {
             Verification
           </p>
           <div className='flex justify-between gap-2 pb-[10px] w-full'>
-            <img className='xl:w-full w-[48%] xl:max-w-[258px]' src={verificationCar} alt="#" />
-            <img className='xl:w-full w-[48%] xl:max-w-[258px]' src={verificationMan} alt="#" />
+            <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationCar} alt="#" />
+            <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationMan} alt="#" />
           </div>
           <div className='flex justify-between gap-2 pb-[10px] w-full'>
-            <img className='xl:w-full w-[48%] xl:max-w-[258px]' src={verificationTomato} alt="#" />
-            <img className='xl:w-full w-[48%] xl:max-w-[258px]' src={verificationCar} alt="#" />
+            <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationTomato} alt="#" />
+            <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationCar} alt="#" />
           </div>
           <div className='flex justify-between gap-2 w-full'>
-            <img className='xl:w-full w-[48%] xl:max-w-[258px]' src={verificationMan} alt="#" />
-            <img className='xl:w-full w-[48%] xl:max-w-[258px]' src={verificationPiz} alt="#" />
+            <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationMan} alt="#" />
+            <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationPiz} alt="#" />
           </div>
         </div>
         <div className='bg-regularWhite rounded-2xl duration-300 hover:shadow-4xl border-[0.5px] border-darkBlue xl:max-w-[326px] max-w-[550px] w-full 2xl:h-[404px] lg:h-[408px]  p-5 lg:mt-[147px]'>
@@ -81,13 +81,13 @@ const HighQuality = () => {
             Incorrectly labeled data is reviewed and relabeled correctly
           </p>
           <div className='flex lg:flex-col sm:flex-row flex-col lg:gap-0 gap-2'>
-            <img className='xl:w-full w-[90%] xl:max-w-[258px]' src={relabelingPiz} alt="#" />
+            <img className='xl:w-full w-[90%] xl:max-w-[258px] pointer-events-none' src={relabelingPiz} alt="#" />
             <Icons iconName="ArrowIcon" className="lg:ps-20 lg:flex hidden" />
-            <img className='xl:w-full w-[90%] xl:max-w-[258px]' src={relabelingQuiche} alt="#" />
+            <img className='xl:w-full w-[90%] xl:max-w-[258px] pointer-events-none' src={relabelingQuiche} alt="#" />
           </div>
         </div>
-        <img className='absolute top-[4%] left-[28%] lg:flex hidden' src={blueArrow} alt="#" />
-        <img className='absolute top-[16%] xl:left-[69%] left-[64%] rotate-[10.5deg] lg:flex hidden ' src={blueArrow} alt="#" />
+        <img className='absolute top-[4%] left-[28%] lg:flex hidden pointer-events-none' src={blueArrow} alt="#" />
+        <img className='absolute pointer-events-none top-[16%] xl:left-[69%] left-[64%] rotate-[10.5deg] lg:flex hidden ' src={blueArrow} alt="#" />
       </div>
     </div>
   )

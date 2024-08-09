@@ -18,7 +18,7 @@ const OurTeam = () => {
                 <div className='flex gap-5 lg:flex-row flex-col lg:items-start items-center'>
                     <div className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
+                            <img className='w-full xl:h-[393px] sm:h-[380px] pointer-events-none' src={markButler} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
@@ -51,7 +51,7 @@ const OurTeam = () => {
                     </div>
                     <div className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
+                            <img className='w-full xl:h-[393px] sm:h-[380px] pointer-events-none' src={corinneCrabtree} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
@@ -67,7 +67,7 @@ const OurTeam = () => {
                                     </p>
                                 </div>
                                 <div className='xl:pb-6 sm:pb-4 pb-3'>
-                                    <a href="tel:972.215.8214" className='font-normal font-poppins text-base leading-6 text-darkBlue flex items-center gap-3'>
+                                    <a href="tel:972.215.8214" className='font-normal font-poppins text-base leading-6 text-darkBlue max-w-[126px] flex items-center gap-3'>
                                         <Icons iconName="PhoneIcon" />
                                         972.215.8214
                                     </a>
@@ -84,7 +84,7 @@ const OurTeam = () => {
                     </div>
                 </div>
             </div>
-            <img className='absolute top-[-57px] min-h-full left-[-32px] rotate-[-16.43deg] lg:flex hidden ' src={teamLineVector} alt="#" />
+            <img className='absolute pointer-events-none top-[-57px] min-h-full left-[-32px] rotate-[-16.43deg] lg:flex hidden ' src={teamLineVector} alt="#" />
         </div>
     )
 }
