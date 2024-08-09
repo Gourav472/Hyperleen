@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
 import CommonBtn from '../common/CommonBtn';
 import CommonBtnWhite from '../common/CommonBtnWhite';
@@ -7,6 +7,8 @@ import loremFirst from '../assets/images/webp/lorem_first.webp';
 import loremSecond from '../assets/images/webp/lorem_second.webp';
 import inputFileBg from '../assets/images/webp/input_file_bg.webp';
 import Icons from '../common/Icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AddLabel = () => {
     const [preview, setPreview] = useState(inputFileBg);
@@ -29,6 +31,14 @@ const AddLabel = () => {
         setPreview(inputFileBg);
         fileInputRef.current.value = null;
     };
+    useEffect(() => {
+        AOS.init({
+            once: true,
+            duration: 1400,
+            easing: "ease-in-out",
+            disable: 'mobile',
+        });
+    }, [])
 
     return (
         <div id='label' className='container relative z-20'>
