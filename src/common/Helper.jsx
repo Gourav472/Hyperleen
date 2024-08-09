@@ -82,3 +82,33 @@ export const BUTTONS_DATA = [
         text: 'Quality Work',
     },
 ]
+export const FOOTER_DATA = [
+    {
+        heading: "Quick Links", items: [
+            { text: "Home" },
+            { text: "About Us" },
+            { text: "Services" },
+            { text: "FAQ" },
+            { text: "How it Works" },
+        ]
+    },
+    {
+        heading: "Links", items: [
+            { text: "Team" },
+            { text: "Label" },
+        ]
+    },
+    {
+        heading: "Policy", items: [
+            { text: "Contact Us" },
+            { text: "Privacy Policy" },
+            { text: "Terms and conditions" },
+        ]
+    },
+];
+export const SOCIAL_ICONS = [
+    { icon: "FaceBook", link:"https://www.facebook.com/" },
+    { icon: "Twitter", link:"https://x.com/i/flow/login" },
+    { icon: "Linkedin", link:"https://in.linkedin.com/" },
+    { icon: "Instagram", link:"https://www.instagram.com/accounts/login/?hl=en" },
+]

@@ -53,7 +53,11 @@ module.exports = {
         '6xl': "-5px 0px 42.77px -15.24px #6F69F280",
         '7xl': "0.88px -8.24px 35.83px 0px #6F69F21F",
         '8xl': "0px 0px 42.77px -10.24px #6F69F280",
+        '3xl_white': "0px 0px 15px white",
       },
+      backgroundImage: {
+        'gradientBorder':"linear-gradient(90deg, rgba(199, 199, 199, 0) 0%, #CDCDCD 34.5%, #CDCDCD 65%, rgba(196, 196, 196, 0) 100%)",
+      }
     },
 
   },
