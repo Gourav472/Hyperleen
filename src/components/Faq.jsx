@@ -39,7 +39,7 @@ const Faq = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </div>    
     )
 }
 
