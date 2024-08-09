@@ -10,7 +10,7 @@ const Faq = () => {
     };
     return (
         <div className='lg:pt-10 pt-5 pb-2 lg:pb-10 xl:pb-20'>
-            <div className="container mt-10 mb-2.5">
+            <div className="container mt-10 mb-2.5">    
                 <CommonHeading blueText="FAQs" className="text-center" />
                 <p className='mt-4 text-center font-poppins text-base font-normal text-gray'>You have got Question.  We have got Answer</p>
                 <div className="pt-7 pb-3">
