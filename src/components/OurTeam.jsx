@@ -11,12 +11,12 @@ const OurTeam = () => {
                     <h3 className='font-medium font_gilroy_semibold md:text-5xl text-4xl leading-10 md:leading-[57px] text-white text-center'>
                         Our Team
                     </h3>
-                    <p className='max-w-[411px] w-full font-normal font-poppins text-base text-white opacity-70 text-center leading-6 pt-4 md:pb-14 sm:pb-9 pb-7'>
+                    <p data-aos="zoom-in" className='max-w-[411px] w-full font-normal font-poppins text-base text-white opacity-70 text-center leading-6 pt-4 md:pb-14 sm:pb-9 pb-7'>
                         Meet our dedicated team of experts ensuring precision and quality in every data labeling task.
                     </p>
                 </div>
                 <div className='flex gap-5 lg:flex-row flex-col lg:items-start items-center'>
-                    <div className='max-w-[560px] w-full'>
+                    <div data-aos="fade-up-right" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
                             <img className='w-full xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
@@ -49,7 +49,7 @@ const OurTeam = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='max-w-[560px] w-full'>
+                    <div data-aos="fade-up-left" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
                             <img className='w-full xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>

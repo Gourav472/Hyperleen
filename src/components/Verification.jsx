@@ -6,7 +6,7 @@ const Verification = () => {
     return (
         <div className='container pt-[60px] lg:pb-[293px] md:pb-28 sm:pb-20 pb-16'>
             <div className='flex gap-[78px] lg:flex-row flex-col items-center'>
-                <div className='max-w-[522px] w-full flex lg:justify-end justify-center lg:mb-0 sm:mb-20 mb-9'>
+                <div data-aos="fade-right" className='max-w-[522px] w-full flex lg:justify-end justify-center lg:mb-0 sm:mb-20 mb-9'>
                     <div className='sm:max-w-[502px] sm:ms-0 ms-5 max-w-[400px] w-full relative'>
                         <p className='font_gilroy_semibold font-semibold md:text-3xl md:leading-9 lg:text-custom-32 text-2xl leading-7 lg:leading-[43px] text-center sm:ms-[1.5px] sm:max-w-[498.5px] max-w-[492px] w-full text-white bg-darkBlue rounded-tl-[8px] rounded-tr-[8px] p-4'>
                             Is Previous Selected Object is Correct?
@@ -28,7 +28,7 @@ const Verification = () => {
                         </div>
                     </div>
                 </div>
-                <div className='max-w-[540px] w-full flex flex-col lg:justify-start justify-center lg:items-start items-center'>
+                <div data-aos="fade-left" className='max-w-[540px] w-full flex flex-col lg:justify-start justify-center lg:items-start items-center'>
                     <p className='text-black font_gilroy_semibold lg:text-start text-center font-semibold text-custom-32 leading-[43px]'>
                         Verification
                     </p>

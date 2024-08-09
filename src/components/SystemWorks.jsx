@@ -8,9 +8,9 @@ const SystemWorks = () => {
     return (
         <div className='container lg:py-40 md:py-20 py-16'>
             <div className='flex lg:gap-[97px] gap-16 lg:items-end items-center lg:flex-row flex-col'>
-                <div className='max-w-[525px] w-full relative flex flex-col lg:items-start items-center lg:justify-start justify-center'>
+                <div data-aos="fade-right" className='max-w-[525px] w-full relative flex flex-col lg:items-start items-center lg:justify-start justify-center'>
                     <CommonHeading text="How the " blueText="System " blackText="Works" className="lg:text-start text-center" />
-                    <p className='font-normal font-poppins text-base lg:text-start text-center leading-6 text-gray pt-4'>
+                    <p data-aos="zoom-in" className='font-normal font-poppins text-base lg:text-start text-center leading-6 text-gray pt-4'>
                         Effortless Data Labeling: Streamlined, Accurate, and Scalable Solutions for AI Development
                     </p>
                     <div className='min-h-[359px] max-w-[400px] w-full p-5 border-[0.5px] border-darkBlue rounded-2xl shadow-4xl mt-10 lg:mb-[151px] mb-6'>
@@ -30,7 +30,7 @@ const SystemWorks = () => {
                     </div>
                     <CommonBtn text="Get Started Now" className="max-w-[195px] w-full lg:mt-0 mt-5" />
                 </div>
-                <div className='max-w-[515px] w-full'>
+                <div data-aos="fade-left" className='max-w-[515px] w-full'>
                     <div className="relative flex gap-4 pb-7 group">
                         <div className='before:absolute before:left-[26px] before:top-6 before:border before:h-full before:border-dashed before:border-darkBlue'>
                             <div className=" duration-300 ease-linear group-hover:bg-darkBlue z-10 relative h-[54px] w-[54px] flex justify-center items-center bg-offBlue rounded-full">
