@@ -25,7 +25,7 @@ function App() {
     });
   }, []);
   return (
-    <div className=' overflow-hidden max-w-[1920px] mx-auto'>
+    <div className='overflow-hidden max-w-[1920px] mx-auto'>
       <Hero />
       <AddLabel />
       <Segmentation />

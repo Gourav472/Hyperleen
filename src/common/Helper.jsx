@@ -1,5 +1,3 @@
-
-
 export const NAV_ITEMS_DATA = [
     {
         href: "/",
@@ -31,7 +29,6 @@ export const NAV_ITEMS_DATA = [
         text: "FAQs",
         className: "navitems",
     },
-
 ];
 export const ACCORDION_DATA = [
     {
