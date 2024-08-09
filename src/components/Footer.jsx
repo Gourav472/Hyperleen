@@ -29,7 +29,7 @@ const Footer = () => {
                             <h4 className='font-poppins font-normal text-lg text-white'>Follow us on</h4>
                             <div className="mt-5 flex items-center gap-3">
                                 {SOCIAL_ICONS.map((index) => (
-                                    <a key={index} href={index.link} rel="noreferrer" target='_blank' className='w-8 h-8 rounded-full bg-white grid place-items-center border-darkBlue border duration-300 ease-linear group hover:border-white hover:shadow-3xl_white relative overflow-hidden'>  <span className="absolute top-0 left-0 rounded-full flex w-full mb-0 ease-linear duration-200 transform -translate-y-full group-hover:translate-y-0 bg-darkBlue h-full "></span><Icons iconName={index.icon} /></a>
+                                    <a key={index} href={index.link} rel="noreferrer" target='_blank' className='w-8 h-8 rounded-full bg-white grid place-items-center border-darkBlue border duration-300 ease-linear group hover:border-white hover:shadow-9xl relative overflow-hidden'>  <span className="absolute top-0 left-0 rounded-full flex w-full mb-0 ease-linear duration-200 transform -translate-y-full group-hover:translate-y-0 bg-darkBlue h-full "></span><Icons iconName={index.icon} /></a>
                                 ))}
                             </div>
                         </div>

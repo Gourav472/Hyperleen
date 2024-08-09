@@ -11,7 +11,7 @@ const Verification = () => {
                         <p className='font_gilroy_semibold font-semibold md:text-3xl md:leading-9 lg:text-custom-32 text-2xl leading-7 lg:leading-[43px] text-center sm:ms-[1.5px] sm:max-w-[498.5px] max-w-[492px] w-full text-white bg-darkBlue rounded-tl-[8px] rounded-tr-[8px] p-4'>
                             Is Previous Selected Object is Correct?
                         </p>
-                        <img className='sm:max-w-[502px] max-w-[400px] w-full sm:h-[365px] h-[280px]' src={previousSelected} alt="#" />
+                        <img className='sm:max-w-[502px] pointer-events-none max-w-[400px] w-full sm:h-[365px] h-[280px]' src={previousSelected} alt="#" />
                         <div className='sm:max-w-[339px] max-w-[250px] w-full sm:h-[212px] h-[180px] bg-white shadow-4xl sm:py-4 py-3 sm:px-[14px] px-[10px] rounded-2xl absolute left-[-4%] sm:bottom-[-28%] bottom-[-22%]'>
                             <p className='font_gilroy_semibold font-semibold md:text-2xl text-xl leading-8 text-center text-black'>
                                 Confirm your action
