@@ -29,11 +29,7 @@ export const NAV_ITEMS_DATA = [
         text: "FAQs",
         className: "navitems",
     },
-    {
-        href: "#request",
-        text: "Request a Qoute",
-        className: "navitems",
-    },
+
 ];
 export const ACCORDION_DATA = [
     {

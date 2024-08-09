@@ -39,7 +39,7 @@ const Header = () => {
           <div className="flex justify-between items-center bg-white py-1 sm:py-2 md:py-3 lg:py-[17px] rounded-3xl">
             <a href="/"><img src={hyperLogo} alt="logo" /></a>
             <ul
-              className={`flex flex-col lg:flex-row items-center max-lg:gap-5 max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full max-lg:bg-white max-lg:z-[90] max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
+              className={`flex flex-col lg:flex-row items-center max-lg:gap-5 lg:gap-[10px] max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full max-lg:bg-white max-lg:z-[90] max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
                 }`}
             >
               {NAV_ITEMS_DATA.map((item, index) => (
