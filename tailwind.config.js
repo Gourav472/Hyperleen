@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
         gilroy: "Gilroy, sans-serif",
       },
       container: {
