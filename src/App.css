@@ -2,36 +2,42 @@
   font-family: "Gilroy heavy,sans-serif";
   src: url("./assets/fonts/Gilroy-Heavy.ttf");
   word-wrap: break-word;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Gilroy bold,sans-serif";
   src: url("./assets/fonts/Gilroy-Bold.ttf");
   word-wrap: break-word;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Gilroy medium,sans-serif";
   src: url("./assets/fonts/Gilroy-Medium.ttf");
   word-wrap: break-word;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Gilroy regular,sans-serif";
   src: url("./assets/fonts/Gilroy-Regular.ttf");
   word-wrap: break-word;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Gilroy light,sans-serif";
   src: url("./assets/fonts/Gilroy-Light.ttf");
   word-wrap: break-word;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Gilroy semibold,sans-serif";
   src: url("./assets/fonts/gilroy-semibold.ttf");
   word-wrap: break-word;
+  font-display: swap;
 }
 
 .font_gilroy_heavy {
