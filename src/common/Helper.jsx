@@ -80,11 +80,11 @@ export const BUTTONS_DATA = [
 export const FOOTER_DATA = [
     {
         heading: "Quick Links", items: [
-            { text: "Home" },
-            { text: "About Us" },
-            { text: "Services" },
-            { text: "FAQ" },
-            { text: "How it Works" },
+            { text: "Home", link: "/" },
+            { text: "About Us", link: "#about" },
+            { text: "Services", link: "" },
+            { text: "FAQ", link: "#faqs" },
+            { text: "How it Works", link: "#works" },
         ]
     },
     {
