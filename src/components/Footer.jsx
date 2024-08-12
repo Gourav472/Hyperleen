@@ -33,7 +33,7 @@ const Footer = () => {
                                         <a
                                             key={idx}
                                             href={e.link}
-                                            onClick={(ev) => handleSmoothScroll(ev, e.link.substring(1))} // Remove the leading "#" from the link to get the ID
+                                            onClick={(ev) => handleSmoothScroll(ev, e.link.substring(1))}
                                             className='font-poppins cursor-pointer w-fit duration-300 ease-linear hover:opacity-100 relative font-normal text-base text-white opacity-70'>
                                             {e.text}
                                         </a>
