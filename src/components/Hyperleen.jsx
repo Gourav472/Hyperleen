@@ -18,7 +18,7 @@ const Hyperleen = () => {
             <div className="container mt-2.5 pb-5">
                 <div className="flex flex-col items-center">
                     <CommonHeading text=" Get in touch with " blueText="Hyperleen" className="text-center" />
-                    <p data-aos="fade-right" className='max-w-[731px] font-poppins text-base font-normal text-gray opacity-70 text-center mt-4'>
+                    <p data-aos="fade-right" className='max-w-[731px]  text-base font-normal text-gray opacity-70 text-center mt-4'>
                         Take your experience a step further! Subscribe to our monthly newsletter for exclusive access to discounts, promotions, Hyperleen events and more. We’d hate to be annoying, please unsubscribe anytime! –
                     </p>
                     <form data-aos="fade-left" method="get" onSubmit={HANDLE_SUBMIT} className='flex items-center flex-col sm:flex-row mb-12 lg:mb-0 gap-[14px] w-full justify-center mt-6'>

@@ -34,11 +34,11 @@ const AddLabel = () => {
                     <div data-aos="fade-right" className='w-full flex justify-center lg:w-5/12'>
                         <div className='flex flex-col'>
                             <CommonHeading className="max-lg:text-center lg:max-w-[478px]" text="Add" blueText="Label" blackText="of an Image" />
-                            <p className='gray font-poppins font-normal text-base leading-6 pt-4'>
+                            <p className='gray  font-normal text-base leading-6 pt-4'>
                                 Efficient and Accurate Labeling on Image.
                             </p>
                             <div className='max-w-[462px] bg-white p-4 sm:p-5 w-full md:min-h-[477px] rounded-2xl border-[0.5px] border-darkBlue mt-6 flex flex-col'>
-                                <p className='text-black font-poppins font_gilroy_semibold text-base leading-6'>
+                                <p className='text-black  font_gilroy_semibold text-base leading-6'>
                                     Upload Image and add label
                                 </p>
                                 <div className='max-w-[422px] p-5 min-h-[205px] w-full bg-offGray rounded-xl mt-4 sm:mt-5'>
@@ -52,7 +52,7 @@ const AddLabel = () => {
                                     </label>
                                 </div>
                                 <div className='max-w-[422px] p-3 min-h-[50px] sm:min-h-[60px] md:min-h-[70px] lg:min-h-[81px] rounded-xl border-[0.5px] border-gray mt-4'>
-                                    <p className='opacity-40 font-poppins font-normal text-base leading-6 text-black flex items-center'>
+                                    <p className='opacity-40  font-normal text-base leading-6 text-black flex items-center'>
                                         {fileName} {preview === inputFileBg && <Icons iconName="PenIcon" className="ms-1" />}
                                     </p>
                                 </div>
