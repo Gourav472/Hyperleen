@@ -20,9 +20,9 @@ const OurTeam = () => {
                         <div className='bg-white w-full rounded-2xl relative'>
                             <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
-                                <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
-                                <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
-                                <a href="https://www.instagram.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="InstagramIcon" /></a>
+                                <a href="https://in.linkedin.com/" target='blank' aria-label='linkedin' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
+                                <a href="https://www.facebook.com/" target='blank' aria-label='facebook' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
+                                <a href="https://www.instagram.com/" target='blank' aria-label='instagram' className='duration-300 hover:scale-110'><Icons iconName="InstagramIcon" /></a>
                             </div>
                             <div className='flex xl:justify-between xl:flex-row flex-col xl:items-center lg:pt-[34px] sm:pt-6 pt-4 px-4'>
                                 <div className='xl:pb-6 sm:pb-4 pb-2'>
@@ -53,9 +53,9 @@ const OurTeam = () => {
                         <div className='bg-white w-full rounded-2xl relative'>
                             <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
-                                <a href="https://in.linkedin.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
-                                <a href="https://www.facebook.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
-                                <a href="https://www.instagram.com/" target='blank' className='duration-300 hover:scale-110'><Icons iconName="InstagramIcon" /></a>
+                                <a href="https://in.linkedin.com/" target='blank' aria-label='linkedin' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
+                                <a href="https://www.facebook.com/" target='blank' aria-label='facebook' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
+                                <a href="https://www.instagram.com/" target='blank' aria-label='instagram' className='duration-300 hover:scale-110'><Icons iconName="InstagramIcon" /></a>
                             </div>
                             <div className='flex xl:justify-between xl:flex-row flex-col xl:items-center lg:pt-[34px] sm:pt-6 pt-4 px-4'>
                                 <div className='xl:pb-6 sm:pb-4 pb-2'>

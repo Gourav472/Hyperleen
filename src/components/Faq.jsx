@@ -17,7 +17,7 @@ const Faq = () => {
                         <div data-aos="flip-up" key={index}>
                             <div className={`${openIndex === index ? 'border-transparent' : 'border-gray'} w-full border-[0.5px] overflow-hidden rounded-2xl flex mx-auto max-w-[973px] mt-3 sm:mt-5 justify-center relative duration-300 ease-linear`}>
                                 <div className="accordion w-full">
-                                    <div
+                                    <div role="button"
                                         className={`${openIndex === index ? 'bg-darkBlue' : 'bg-white'} duration-300 ease-linear accordion-header relative z-[1] sm:px-6 px-3 flex items-center justify-between shadow-4xl gap-1.5 cursor-pointer py-4 sm:py-[23px]`}
                                         onClick={() => HANDLE_TOGGLE(index)}
                                         aria-expanded={openIndex === index}

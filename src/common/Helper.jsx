@@ -102,7 +102,7 @@ export const FOOTER_DATA = [
     },
 ];
 export const SOCIAL_ICONS = [
-    { icon: "FaceBook", link:"https://www.facebook.com/" },
+    { icon: "FaceBook", link:"https://www.facebook.com/"},
     { icon: "Twitter", link:"https://x.com/i/flow/login" },
     { icon: "Linkedin", link:"https://in.linkedin.com/" },
     { icon: "Instagram", link:"https://www.instagram.com/accounts/login/?hl=en" },
