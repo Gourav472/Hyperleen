@@ -2,14 +2,11 @@ import React, { useState } from 'react';
 import CommonHeading from '../common/CommonHeading';
 import { ACCORDION_DATA } from "../common/Helper";
 import Icon from '../common/Icons';
-
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState(null);
-
     const HANDLE_TOGGLE = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
-
     return (
         <div id='faqs' className='lg:pt-10 pt-2 sm:pt-5 pb-2 lg:pb-10 xl:pb-20'>
             <div className="container lg:mt-10 mb-2.5">
@@ -57,5 +54,4 @@ const Faq = () => {
         </div>
     );
 };
-
 export default Faq;

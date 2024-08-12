@@ -84,7 +84,7 @@ const OurTeam = () => {
                     </div>
                 </div>
             </div>
-            <img className='absolute top-[-57px] min-h-full left-[-32px] rotate-[-16.43deg] lg:flex hidden ' src={teamLineVector} alt="#" />
+            <img className='absolute pointer-events-none top-[-57px] min-h-full left-[-32px] rotate-[-16.43deg] lg:flex hidden ' src={teamLineVector} alt="#" />
         </div>
     )
 }
