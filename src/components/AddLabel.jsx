@@ -46,6 +46,7 @@ const AddLabel = () => {
                                         style={{
                                             backgroundImage: `url(${preview})`,
                                             backgroundSize: 'contain',
+                                            backgroundRepeat:'no-repeat',
                                         }}>
                                         <input type="file" className="hidden" onChange={HANDLE_FILE_CHANGE} ref={fileInputRef} />
                                     </label>
