@@ -1,31 +1,31 @@
 export const NAV_ITEMS_DATA = [
     {
-        href: "/",
+        url: "/",
         text: "Home",
         className: "navitems",
     },
     {
-        href: "#label",
+        url: "#label",
         text: "Label",
         className: "navitems",
     },
     {
-        href: "#about",
+        url: "#about",
         text: "About Us",
         className: "navitems",
     },
     {
-        href: "#works",
+        url: "#works",
         text: "How It Works",
         className: "navitems",
     },
     {
-        href: "#team",
+        url: "#team",
         text: "Team",
         className: "navitems",
     },
     {
-        href: "#faqs",
+        url: "#faqs",
         text: "FAQs",
         className: "navitems",
     },
@@ -102,8 +102,8 @@ export const FOOTER_DATA = [
     },
 ];
 export const SOCIAL_ICONS = [
-    { icon: "FaceBook", link:"https://www.facebook.com/"},
-    { icon: "Twitter", link:"https://x.com/i/flow/login" },
-    { icon: "Linkedin", link:"https://in.linkedin.com/" },
-    { icon: "Instagram", link:"https://www.instagram.com/accounts/login/?hl=en" },
+    { icon: "FaceBook", link: "https://www.facebook.com/" },
+    { icon: "Twitter", link: "https://x.com/i/flow/login" },
+    { icon: "Linkedin", link: "https://in.linkedin.com/" },
+    { icon: "Instagram", link: "https://www.instagram.com/accounts/login/?hl=en" },
 ]

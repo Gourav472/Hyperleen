@@ -1,5 +1,4 @@
 import React from 'react'
-
 const CommonBtnWhite = ({className, text}) => {
   return (
     <button className={`${className} max-md:py-3 md:py-[14px] hover:shadow-2xl border hover:border-darkBlue border-black text-center relative rounded-[100px] group overflow-hidden font-normal bg-white text-black inline-block`}>
@@ -8,5 +7,4 @@ const CommonBtnWhite = ({className, text}) => {
     </button>
   )
 }
-
 export default CommonBtnWhite

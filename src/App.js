@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       once: true,
-      duration: 2000,
+      duration: 1600,
       easing: "ease-in-out",
       disable: 'mobile',
     });

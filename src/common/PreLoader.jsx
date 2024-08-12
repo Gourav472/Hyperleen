@@ -5,18 +5,18 @@ const PreLoader = () => {
     const [visible, setVisible] = useState(true);
     useEffect(() => {
         document.body.classList.add('overflow-hidden');
-        const TIMER = setTimeout(() => {
+        const Timer = setTimeout(() => {
             setVisible(false);
             document.body.classList.remove('overflow-hidden');
         }, 2000);
         return () => {
-            clearTimeout(TIMER);
+            clearTimeout(Timer);
             document.body.classList.remove('overflow-hidden');
         };
     }, []);
     if (!visible) return null;
     return (
-        <div className='min-h-screen w-full bg-white z-50 fixed top-0 left-0 grid place-items-center'>
+        <div className='min-h-screen w-full bg-white z-[100] fixed top-0 left-0 grid place-items-center'>
             <div className='animate-pulse flex flex-col gap-5 items-center'>
                 <img src={hyperLogo} alt="hyperLogo" className='w-[160px] sm:w-[180px] relative z-10' />
                 <div aria-label="Loading..." role="status" className="flex items-center space-x-2">

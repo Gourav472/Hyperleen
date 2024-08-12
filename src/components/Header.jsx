@@ -6,21 +6,21 @@ import CommonBtnWhite from '../common/CommonBtnWhite';
 const Header = () => {
   const [show, setShow] = useState(true);
   useEffect(() => {
-    const HANDLE_RESIZE = () => {
+    const handleResize = () => {
       if (window.innerWidth < 992) {
         document.body.style.overflow = show ? "" : "hidden";
       } else {
         document.body.style.overflow = "";
       }
     };
-    HANDLE_RESIZE();
-    window.addEventListener("resize", HANDLE_RESIZE);
+    handleResize();
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener("resize", HANDLE_RESIZE);
+      window.removeEventListener("resize", handleResize);
       document.body.style.overflow = "";
     };
   }, [show]);
-  const HANDLE_CLICK = (e, id) => {
+  const handleClick = (e, id) => {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
@@ -45,8 +45,8 @@ const Header = () => {
               {NAV_ITEMS_DATA.map((item, index) => (
                 <li key={index}>
                   <a
-                    href={item.href}
-                    onClick={(e) => HANDLE_CLICK(e, item.href.substring(1))}
+                    href={item.url}
+                    onClick={(e) => handleClick(e, item.url.substring(1))}
                     className={item.className}
                   >
                     {item.text}
@@ -59,7 +59,7 @@ const Header = () => {
               </li>
             </ul>
             <div
-              className={`cursor-pointer relative z-[100] lg:hidden ${show ? "" : "cross"}`}
+              className={`cursor-pointer relative z-[90] lg:hidden ${show ? "" : "cross"}`}
               onClick={() => setShow(!show)}>
               <span className="nav-toggle-items "></span>
               <span className="nav-toggle-items my-[7px]"></span>

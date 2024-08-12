@@ -11,7 +11,7 @@ const AddLabel = () => {
     const [preview, setPreview] = useState(inputFileBg);
     const [fileName, setFileName] = useState('Car.');
     const fileInputRef = useRef(null);
-    const HANDLE_FILE_CHANGE = (e) => {
+    const handleFileChange = (e) => {
         const selectedFile = e.target.files[0];
         if (selectedFile) {
             setFileName(selectedFile.name);
@@ -22,7 +22,7 @@ const AddLabel = () => {
             reader.readAsDataURL(selectedFile);
         }
     };
-    const HANDLE_CANCEL = () => {
+    const handleCancel = () => {
         setFileName('Car.');
         setPreview(inputFileBg);
         fileInputRef.current.value = null;
@@ -48,7 +48,7 @@ const AddLabel = () => {
                                             backgroundSize: 'contain',
                                             backgroundRepeat:'no-repeat',
                                         }}>
-                                        <input type="file" className="hidden" onChange={HANDLE_FILE_CHANGE} ref={fileInputRef} />
+                                        <input type="file" className="hidden" onChange={handleFileChange} ref={fileInputRef} />
                                     </label>
                                 </div>
                                 <div className='max-w-[422px] p-3 min-h-[50px] sm:min-h-[60px] md:min-h-[70px] lg:min-h-[81px] rounded-xl border-[0.5px] border-gray mt-4'>
@@ -60,12 +60,12 @@ const AddLabel = () => {
                                     <CommonBtn
                                         text="Ok"
                                         className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full"
-                                        onClick={HANDLE_CANCEL}
+                                        onClick={handleCancel}
                                     />
                                     <CommonBtnWhite
                                         text="Cancel"
                                         className="max-sm:max-w-[120px] max-md:max-w-[150px] md:max-w-[203px] w-full"
-                                        onClick={HANDLE_CANCEL}
+                                        onClick={handleCancel}
                                     />
                                 </div>
                             </div>

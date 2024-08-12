@@ -1,5 +1,4 @@
 import React from 'react';
-
 const CommonBtn = ({ className, text, onClick }) => {
   return (
     <button
@@ -13,5 +12,4 @@ const CommonBtn = ({ className, text, onClick }) => {
     </button>
   );
 };
-
 export default CommonBtn;

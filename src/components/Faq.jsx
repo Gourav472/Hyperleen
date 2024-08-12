@@ -4,7 +4,7 @@ import { ACCORDION_DATA } from "../common/Helper";
 import Icon from '../common/Icons';
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState(null);
-    const HANDLE_TOGGLE = (index) => {
+    const handleToggle = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
     return (
@@ -14,7 +14,7 @@ const Faq = () => {
                 <p data-aos="zoom-in" className='sm:mt-4 mt-1 text-center font-poppins text-base font-normal text-gray'>
                     You have got Question. We have got Answer
                 </p>
-                <div className="lg:pt-[60px] pt-5 sm:pt-8 md:pt-11 pb-3">
+                <div className="lg:pt-[40px] pt-5 sm:pt-7 md:pt-8 pb-3">
                     {ACCORDION_DATA.map((item, index) => (
                         <div data-aos="flip-up" key={index}>
                             <div
@@ -22,7 +22,7 @@ const Faq = () => {
                                 <div className="accordion w-full">
                                     <div role="button"
                                         className={`${openIndex === index ? 'bg-darkBlue' : 'bg-white'} duration-300 ease-linear accordion-header relative z-[1] sm:px-6 px-3 flex items-center justify-between shadow-4xl gap-1.5 cursor-pointer py-4 sm:py-[23px]`}
-                                        onClick={() => HANDLE_TOGGLE(index)}
+                                        onClick={() => handleToggle(index)}
                                         aria-expanded={openIndex === index}
                                     >
                                         <div className="flex items-start sm:items-center gap-1.5">
