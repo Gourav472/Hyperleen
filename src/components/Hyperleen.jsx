@@ -25,8 +25,8 @@ const Hyperleen = () => {
                         <input type="email" placeholder='Your e-mail' value={email} onChange={(e) => setEmail(e.target.value)} className='bg-mediumGray p-4 text-gray outline-none font-poppins text-base font-normal max-w-[323px] w-full rounded-2xl placeholder:text-gray' required />
                         <CommonBtn text="Submit Now" className="text-nowrap px-6 max-w-[156px] w-full " />
                     </form>
-                    <div className={`${isSubmitted === true ? "right-[3%]" : "-right-full"} fixed bg-darkBlue py-5 px-5 text-nowrap shadow-4xl justify-center max-w-[400px] rounded-3xl w-1/2 border-b-2 border-green-600 flex items-center duration-300 ease-linear cursor-pointer bottom-8`}>
-                        <p className='font-poppins font-normal text-white'>Submit successfully</p>
+                    <div className={`${isSubmitted === true ? "right-[3%]" : "-right-full"} fixed bg-white py-5 px-5 text-nowrap shadow-3xl justify-center max-w-[400px] rounded-3xl w-1/2 border-b-2 border-darkBlue flex items-center duration-300 ease-linear cursor-pointer bottom-8`}>
+                        <p className='font-poppins font-normal text-black'>Submit successfully</p>
                     </div>
                 </div>
             </div>
