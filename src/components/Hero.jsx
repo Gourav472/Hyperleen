@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <>
             <Header />
-            <div className='border-t-[0.1px] border-gray relative'>
+            <div className='border-t-[0.1px] border-gray relative' id='hero'>
                 <div className='container relative z-20'>
                     <div className='flex-col items-center flex py-12 sm:py-14 md:py-16 lg:py-[68px] xl:py-[71px]'>
                         <div className='flex items-center gap-4'>

@@ -80,7 +80,7 @@ export const BUTTONS_DATA = [
 export const FOOTER_DATA = [
     {
         heading: "Quick Links", items: [
-            { text: "Home", link: "/" },
+            { text: "Home", link: "#hero" },
             { text: "About Us", link: "#about" },
             { text: "Services", link: "" },
             { text: "FAQ", link: "#faqs" },
@@ -89,15 +89,15 @@ export const FOOTER_DATA = [
     },
     {
         heading: "Links", items: [
-            { text: "Team" },
-            { text: "Label" },
+            { text: "Team", link: "#team" },
+            { text: "Label", link: "#label" },
         ]
     },
     {
         heading: "Policy", items: [
-            { text: "Contact Us" },
-            { text: "Privacy Policy" },
-            { text: "Terms and conditions" },
+            { text: "Contact Us", link: "#touch" },
+            { text: "Privacy Policy", link: "#tools" },
+            { text: "Terms and conditions", link: "#tools" },
         ]
     },
 ];
