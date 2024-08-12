@@ -8,7 +8,7 @@ const OurTeam = () => {
         <div id='team' className='max-lg:bg-darkBlue lg:bg-our_team lg:bg-no-repeat lg:bg-full lg:py-[183px] py-14 sm:py-16 md:py-20 relative overflow-hidden'>
             <div className='container z-10'>
                 <div className='flex flex-col justify-center items-center'>
-                    <h3 className='font-medium font_gilroy_semibold md:text-5xl text-4xl leading-10 md:leading-[57px] text-white text-center'>
+                    <h3 data-aos="zoom-in" className='font-medium font_gilroy_semibold md:text-5xl text-4xl leading-10 md:leading-[57px] text-white text-center'>
                         Our Team
                     </h3>
                     <p data-aos="zoom-in" className='max-w-[411px] w-full font-normal font-poppins text-base text-white opacity-70 text-center leading-6 pt-4 md:pb-14 sm:pb-9 pb-7'>
