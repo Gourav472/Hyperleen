@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="flex gap-10 lg:flex-nowrap flex-wrap justify-between">
                     <div className="max-w-[279px] w-full">
                         <a href="/" className='max-w-[117px] w-full flex'>
-                            <img src={HyperleenLogo} alt="HyperleenLogo" className='w-full' />
+                            <img loading='lazy' src={HyperleenLogo} alt="HyperleenLogo" className='w-full' />
                         </a>
                         <p className='font-poppins font-normal text-base text-white opacity-70 mt-5'>Lorem ipsum dolor sit amet consectetur. Massa ac commodo duis amet et ut. Tincidunt faucibus integer risus id at.</p>
                     </div>
