@@ -8,7 +8,7 @@ const PreLoader = () => {
         const TIMER = setTimeout(() => {
             setVisible(false);
             document.body.classList.remove('overflow-hidden');
-        }, 200000);
+        }, 2000);
         return () => {
             clearTimeout(TIMER);
             document.body.classList.remove('overflow-hidden');

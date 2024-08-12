@@ -80,24 +80,24 @@ export const BUTTONS_DATA = [
 export const FOOTER_DATA = [
     {
         heading: "Quick Links", items: [
-            { text: "Home" },
-            { text: "About Us" },
-            { text: "Services" },
-            { text: "FAQ" },
-            { text: "How it Works" },
+            { text: "Home", link: "#hero" },
+            { text: "About Us", link: "#about" },
+            { text: "Services", link: "#services" },
+            { text: "FAQ", link: "#faqs" },
+            { text: "How it Works", link: "#works" },
         ]
     },
     {
         heading: "Links", items: [
-            { text: "Team" },
-            { text: "Label" },
+            { text: "Team", link: "#team" },
+            { text: "Label", link: "#label" },
         ]
     },
     {
         heading: "Policy", items: [
-            { text: "Contact Us" },
-            { text: "Privacy Policy" },
-            { text: "Terms and conditions" },
+            { text: "Contact Us", link: "#touch" },
+            { text: "Privacy Policy", link: "#tools" },
+            { text: "Terms and conditions", link: "#tools" },
         ]
     },
 ];
