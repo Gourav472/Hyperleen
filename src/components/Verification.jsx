@@ -16,7 +16,7 @@ const Verification = () => {
                             <p className='font_gilroy_semibold font-semibold md:text-2xl text-xl leading-8 text-center text-black'>
                                 Confirm your action
                             </p>
-                            <p className='max-w-[293px] font-poppins font-normal text-base leading-6 text-center text-gray pt-1 sm:pb-9 pb-4'>
+                            <p className='max-w-[293px]  font-normal text-base leading-6 text-center text-gray pt-1 sm:pb-9 pb-4'>
                                 Confirm if the segmentation was performed correctly.
                             </p>
                             <div className='flex gap-4'>
@@ -32,7 +32,7 @@ const Verification = () => {
                     <p className='text-black font_gilroy_semibold lg:text-start text-center font-semibold text-custom-32 leading-[43px]'>
                         Verification
                     </p>
-                    <p className='font-normal font-poppins lg:text-start text-center text-base text-gray leading-6 pt-4 md:pb-12 sm:pb-9 pb-7'>
+                    <p className='font-normal  lg:text-start text-center text-base text-gray leading-6 pt-4 md:pb-12 sm:pb-9 pb-7'>
                         Verification is a crucial step to ensure the accuracy of the labeled data. It involves reviewing the segmented image to confirm if the segmentation was performed correctly
                     </p>
                     <CommonBtn text="Learn More" className="max-w-[148px] w-full" />

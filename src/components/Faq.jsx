@@ -11,7 +11,7 @@ const Faq = () => {
         <div className='lg:pt-10 pt-2 sm:pt-5 pb-2 lg:pb-10 xl:pb-20'>
             <div className="container lg:mt-10 mb-2.5">
                 <CommonHeading blueText="FAQs" className="text-center" />
-                <p data-aos="zoom-in" className='sm:mt-4 mt-1 text-center font-poppins text-base font-normal text-gray'>You have got Question.  We have got Answer</p>
+                <p data-aos="zoom-in" className='sm:mt-4 mt-1 text-center  text-base font-normal text-gray'>You have got Question.  We have got Answer</p>
                 <div className="lg:pt-[60px] pt-5 sm:pt-8 md:pt-11 pb-3">
                     {ACCORDION_DATA.map((item, index) => (
                         <div data-aos="flip-up" key={index}>
@@ -23,7 +23,7 @@ const Faq = () => {
                                         aria-expanded={openIndex === index}
                                     >
                                         <div className="flex items-start sm:items-center gap-1.5">
-                                            <h3 className={`${openIndex === index ? 'text-white' : 'text-black'} font-poppins font-medium text-sm sm:text-base`}>{item.title}</h3>
+                                            <h3 className={`${openIndex === index ? 'text-white' : 'text-black'}  font-medium text-sm sm:text-base`}>{item.title}</h3>
                                         </div>
                                         <Icon iconName="AccordionIcon" isOpen={openIndex === index} className={`${openIndex === index ? 'rotate-180 bg-white fill-darkBlue' : 'bg-darkBlue fill-white'} duration-500 ease-linear w-6 h-6 py-2 px-[7px]  rounded-full grid place-items-center`} />
                                     </div>
