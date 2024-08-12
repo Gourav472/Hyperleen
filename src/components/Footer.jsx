@@ -6,7 +6,7 @@ import Icons from '../common/Icons';
 const Footer = () => {
     const CURRENT_YEAR = new Date().getFullYear();
 
-    const handleSmoothScroll = (e, targetId) => {
+    const HANDLESMOOTHSCROLL = (e, targetId) => {
         e.preventDefault();
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
@@ -33,7 +33,7 @@ const Footer = () => {
                                         <a
                                             key={idx}
                                             href={e.link}
-                                            onClick={(ev) => handleSmoothScroll(ev, e.link.substring(1))}
+                                            onClick={(ev) => HANDLESMOOTHSCROLL(ev, e.link.substring(1))}
                                             className='font-poppins cursor-pointer w-fit duration-300 ease-linear hover:opacity-100 relative font-normal text-base text-white opacity-70'>
                                             {e.text}
                                         </a>
