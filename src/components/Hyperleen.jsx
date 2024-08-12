@@ -21,7 +21,7 @@ const Hyperleen = () => {
                     <p data-aos="fade-right" className='max-w-[731px] font-poppins text-base font-normal text-gray opacity-70 text-center mt-4'>
                         Take your experience a step further! Subscribe to our monthly newsletter for exclusive access to discounts, promotions, Hyperleen events and more. We’d hate to be annoying, please unsubscribe anytime! –
                     </p>
-                    <form data-aos="fade-left" method="get" onSubmit={HANDLE_SUBMIT} className='flex items-center gap-[14px] mt-6'>
+                    <form data-aos="fade-left" method="get" onSubmit={HANDLE_SUBMIT} className='flex items-center flex-col sm:flex-row mb-12 lg:mb-0 gap-[14px] w-full justify-center mt-6'>
                         <input type="email" placeholder='Your e-mail' value={email} onChange={(e) => setEmail(e.target.value)} className='bg-mediumGray p-4 text-gray outline-none font-poppins text-base font-normal max-w-[323px] w-full rounded-2xl placeholder:text-gray' required />
                         <CommonBtn text="Submit Now" className="text-nowrap px-6 max-w-[156px] w-full " />
                     </form>
