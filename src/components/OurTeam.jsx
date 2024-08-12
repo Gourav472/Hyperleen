@@ -18,7 +18,7 @@ const OurTeam = () => {
                 <div className='flex gap-5 lg:flex-row flex-col lg:items-start items-center'>
                     <div data-aos="fade-up-right" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
+                            <img loading="lazy" decoding="async" className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={markButler} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' aria-label='linkedin' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' aria-label='facebook' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>
@@ -51,7 +51,7 @@ const OurTeam = () => {
                     </div>
                     <div data-aos="fade-up-left" className='max-w-[560px] w-full'>
                         <div className='bg-white w-full rounded-2xl relative'>
-                            <img className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
+                            <img loading="lazy" decoding="async" className='w-full pointer-events-none xl:h-[393px] sm:h-[380px]' src={corinneCrabtree} alt="#" />
                             <div className='w-[48px] sm:h-[160px] bg-lightWhite flex flex-col sm:gap-4 gap-2 sm:p-[16px_8px] p-[8px_6px] rounded-tr-3xl shadow-5xl absolute top-0 right-0'>
                                 <a href="https://in.linkedin.com/" target='blank' aria-label='linkedin' className='duration-300 hover:scale-110'><Icons iconName="LinkedinIcon" /></a>
                                 <a href="https://www.facebook.com/" target='blank' aria-label='facebook' className='duration-300 hover:scale-110'><Icons iconName="FacebookIcon" /></a>

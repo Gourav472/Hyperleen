@@ -17,7 +17,7 @@ const SystemWorks = () => {
                         <p className='font-semibold font-poppins text-base text-black leading-6 pb-5'>
                             Project Request
                         </p>
-                        <img className='lg:max-w-[361px]' src={carImg} alt="#" />
+                        <img loading="lazy" decoding="async" className='lg:max-w-[361px]' src={carImg} alt="#" />
                         <div className='flex gap-3 items-center border-[0.5px] border-lighterGray rounded-xl w-full p-3 mt-4'>
                             <p className='font-normal font-poppins opacity-40 text-black text-base leading-6'>
                                 Car..
@@ -26,7 +26,7 @@ const SystemWorks = () => {
                         </div>
                     </div>
                     <div className='bg-white rounded-2xl shadow-4xl p-[28px_24px] max-w-[381px] lg:absolute right-0 bottom-[14%]'>
-                        <img className='lg:max-w-[332px] w-full' src={yourProject} alt="#" />
+                        <img loading="lazy" decoding="async" className='lg:max-w-[332px] w-full' src={yourProject} alt="#" />
                     </div>
                     <CommonBtn text="Get Started Now" className="max-w-[195px] w-full lg:mt-0 mt-5" />
                 </div>
