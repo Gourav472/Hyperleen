@@ -30,11 +30,11 @@ const HighQuality = () => {
             Data Labeling
           </p>
           <div className='flex lg:flex-col sm:flex-row flex-col lg:gap-0 gap-2'>
-            <img className='sm:max-w-[258px] w-[90%] sm:w-full pointer-events-none' src={labelingPiz} alt="#" />
-            <img className='lg:pt-7 sm:max-w-[258px] w-[90%] sm:w-full  pointer-events-none' src={labelingCar} alt="#" />
+            <img className='lg:max-w-[285px] sm:max-w-[250px] w-[90%] sm:w-full pointer-events-none' src={labelingPiz} alt="#" />
+            <img className='lg:pt-7 lg:max-w-[285px] w-[90%] sm:max-w-[250px] sm:w-full  pointer-events-none' src={labelingCar} alt="#" />
           </div>
         </div>
-        <div className='lg:max-w-[449px] max-w-[550px] w-full 2xl:h-[440px] lg:h-[404px]  p-5 duration-300 hover:shadow-4xl bg-regularWhite rounded-2xl border-[0.5px] border-darkBlue lg:mt-[52px]'>
+        <div className='lg:max-w-[449px] max-w-[550px] w-full 2xl:h-[415px] xl:h-[410px] lg:h-[360px]  p-5 duration-300 hover:shadow-4xl bg-regularWhite rounded-2xl border-[0.5px] border-darkBlue lg:mt-[52px]'>
           <div className='flex justify-between items-center'>
             <p className='font-semibold font_gilroy_semibold sm:text-2xl text-xl sm:leading-[34px] leading-7 text-black'>
               Step 02
@@ -57,20 +57,20 @@ const HighQuality = () => {
           <p className='font-semibold font_gilroy_semibold sm:text-xl text-lg leading-7 text-gray py-2'>
             Verification
           </p>
-          <div className='flex justify-between gap-2 pb-[10px] w-full'>
+          <div className='flex justify-between gap-2 xl:gap-[47px] pb-[10px] w-full'>
             <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationCar} alt="#" />
             <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationMan} alt="#" />
           </div>
-          <div className='flex justify-between gap-2 pb-[10px] w-full'>
+          <div className='flex justify-between gap-2 xl:gap-[47px] pb-[10px] w-full'>
             <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationTomato} alt="#" />
             <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationCar} alt="#" />
           </div>
-          <div className='flex justify-between gap-2 w-full'>
+          <div className='flex justify-between xl:gap-[47px] gap-2 w-full'>
             <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationMan} alt="#" />
             <img className='xl:w-full w-[48%] xl:max-w-[258px] pointer-events-none' src={verificationPiz} alt="#" />
           </div>
         </div>
-        <div className='bg-regularWhite rounded-2xl duration-300 hover:shadow-4xl border-[0.5px] border-darkBlue xl:max-w-[326px] max-w-[550px] w-full 2xl:h-[404px] lg:h-[408px]  p-5 lg:mt-[147px]'>
+        <div className='bg-regularWhite rounded-2xl duration-300 hover:shadow-4xl border-[0.5px] border-darkBlue xl:max-w-[326px] max-w-[550px] w-full 2xl:h-[380px] lg:h-[380px]  p-5 lg:mt-[147px]'>
           <p className='font-semibold font_gilroy_semibold sm:text-2xl text-xl sm:leading-[34px] leading-7 text-black'>
             Step 03
           </p>
