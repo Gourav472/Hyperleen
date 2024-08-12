@@ -30,7 +30,7 @@ const Hyperleen = () => {
                     </div>
                 </div>
             </div>
-            <img src={hyperleenBottom} alt="hyperleenBottom" className='w-full' />
+            <img src={hyperleenBottom} alt="hyperleenBottom" className='w-full'/>
         </div>
     )
 }
