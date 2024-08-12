@@ -27,7 +27,7 @@ const Footer = () => {
                     <div className="flex w-full justify-between lg:w-auto gap-10 xl:gap-[72px] flex-wrap md:flex-nowrap text-nowrap">
                         {FOOTER_DATA.map((item, index) => (
                             <div key={index} className="flex flex-col">
-                                <h5 className='font-poppins font-normal text-lg text-white'>{index.heading}</h5>
+                                <h5 className='font-poppins font-normal text-lg text-white'>{item.heading}</h5>
                                 <div className="flex flex-col mt-5 gap-5">
                                     {item.items.map((e, idx) => (
                                         <a
