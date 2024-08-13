@@ -27,14 +27,14 @@ const Footer = () => {
                     <div className="flex w-full justify-between lg:w-auto gap-10 xl:gap-[72px] flex-wrap md:flex-nowrap text-nowrap">
                         {FOOTER_DATA.map((item, index) => (
                             <div key={index} className="flex flex-col">
-                                <h5 className='font-poppins font-normal text-lg text-white'>{item.heading}</h5>
+                                <h5 className=' font-normal text-lg text-white'>{item.heading}</h5>
                                 <div className="flex flex-col mt-5 gap-5">
                                     {item.items.map((e, idx) => (
                                         <a
                                             key={idx}
                                             href={e.link}
                                             onClick={(ev) => HANDLESMOOTHSCROLL(ev, e.link.substring(1))}
-                                            className='font-poppins cursor-pointer w-fit duration-300 ease-linear hover:opacity-100 relative font-normal text-base text-white opacity-70'>
+                                            className=' cursor-pointer w-fit duration-300 ease-linear hover:opacity-100 relative font-normal text-base text-white opacity-70'>
                                             {e.text}
                                         </a>
                                     ))}
